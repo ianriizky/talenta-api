@@ -2,19 +2,26 @@
     "name": "ianriizky/talenta-api",
     "description": "The bridging between your application and Talenta API using Laravel HTTP Client.",
     "type": "library",
+    "keywords": [
+        "php",
+        "laravel",
+        "talenta",
+        "api"
+    ],
     "require": {
+        "php": "^8.0",
         "illuminate/http": "~9.0",
-        "guzzlehttp/guzzle": "^7.2",
-        "php": "^8.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^7.3",
-        "pestphp/pest": "^1.21"
+        "guzzlehttp/guzzle": "^7.2"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ianriizky\\TalentaApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ianriizky\\TalentaApi\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -24,9 +31,29 @@
         }
     ],
     "minimum-stability": "stable",
+    "require-dev": {
+        "orchestra/testbench": "^7.3",
+        "pestphp/pest": "^1.21"
+    },
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ],
+        "test": "vendor/bin/pest"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ianriizky\\TalentaApi\\ServiceProvider"
+            ],
+            "aliases": {
+                "SAPServiceLayer": "Ianriizky\\TalentaApi\\Support\\Facades\\SAPServiceLayer"
+            }
         }
     }
 }

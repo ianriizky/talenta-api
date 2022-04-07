@@ -15,6 +15,6 @@
         </include>
     </coverage>
     <php>
-        <env name="APP_KEY" value="base64:ioXW1I3InmXzhqfD+wKzQyZJmYWNFAATtrVtY1oAi5w=" />
+        <env name="APP_KEY" value="base64:LZ7oLro/b1IzaQudYw7IlvmzHduzyCQuW8PEoN1wC8I=" />
     </php>
 </phpunit>
