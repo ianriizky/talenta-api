@@ -1,0 +1,32 @@
+{
+    "name": "ianriizky/talenta-api",
+    "description": "The bridging between your application and Talenta API using Laravel HTTP Client.",
+    "type": "library",
+    "require": {
+        "illuminate/http": "~9.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.3",
+        "pestphp/pest": "^1.21"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ianriizky\\TalentaApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Septianata Rizky Pratama",
+            "email": "septianata.pratama@beone-solution.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
