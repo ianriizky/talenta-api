@@ -52,7 +52,7 @@
                 "Ianriizky\\TalentaApi\\ServiceProvider"
             ],
             "aliases": {
-                "SAPServiceLayer": "Ianriizky\\TalentaApi\\Support\\Facades\\SAPServiceLayer"
+                "TalentaApi": "Ianriizky\\TalentaApi\\Support\\Facades\\TalentaApi"
             }
         }
     }
