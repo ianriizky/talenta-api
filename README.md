@@ -1,7 +1,7 @@
 # talenta-api
 
 [![Build Status](https://github.com/ianriizky/talenta-api/actions/workflows/laravel.yml/badge.svg)](https://github.com/ianriizky/talenta-api/actions)
-[![StyleCI](https://github.styleci.io/repos/478463042/shield)](https://github.styleci.io/repos/478463042)
+[![StyleCI](https://github.styleci.io/repos/479041299/shield)](https://github.styleci.io/repos/479041299)
 [![Coverage Status](https://coveralls.io/repos/github/ianriizky/talenta-api/badge.svg)](https://coveralls.io/github/ianriizky/talenta-api)
 [![Latest Stable Version](https://poser.pugx.org/ianriizky/talenta-api/v/stable.svg)](https://packagist.org/packages/ianriizky/talenta-api)
 [![Total Downloads](https://poser.pugx.org/ianriizky/talenta-api/d/total.svg)](https://packagist.org/packages/ianriizky/talenta-api)
