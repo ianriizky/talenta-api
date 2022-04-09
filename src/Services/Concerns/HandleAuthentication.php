@@ -2,10 +2,12 @@
 
 namespace Ianriizky\TalentaApi\Services\Concerns;
 
+use Closure;
 use Illuminate\Http\Client\PendingRequest;
+use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Response as HttpResponse;
-use Illuminate\Support\Arr;
+use Illuminate\Support\Carbon;
 use Throwable;
 
 /**
@@ -15,58 +17,50 @@ use Throwable;
 trait HandleAuthentication
 {
     /**
-     * Determine whether the request instance is authenticated or not.
+     * Create a callback to set authentication data before sending the request.
      *
-     * @return bool
+     * @return \Closure
      */
-    protected function isRequestAuthenticated(): bool
+    protected function authenticateRequest(): Closure
     {
-        // !! WIP
-        return true;
+        return function (Request $request, array $options, PendingRequest $pendingRequest) {
+            $date = Carbon::now()->toRfc7231String();
+            $requestLine = sprintf('%s %s HTTP/1.1', $request->method(), $request->url());
+
+            $digest = hash_hmac('sha256', implode('\n', [
+                'date: ' . $date,
+                $requestLine,
+            ]), $this->config['hmac_secret']);
+
+            $signature = base64_encode($digest);
+
+            $hmacHeader = [
+                'hmac username' => $this->config['hmac_username'],
+                'algorithm' => 'hmac-sha256',
+                'headers' => 'date request-line',
+                'signature' => $signature,
+            ];
+
+            $authorization = collect($hmacHeader)
+                ->map(fn ($value, $key) => sprintf('%s="%s"', $key, $value))
+                ->implode(', ');
+
+            $pendingRequest->withHeaders([
+                'Authorization' => $authorization,
+                'Date' => $date,
+            ]);
+        };
     }
 
     /**
-     * Set authentication data of the request instance.
+     * Create a callback to handle request retrying process when the given response is unauthorized.
      *
-     * @return void
+     * @return \Closure
      */
-    protected function authenticateRequest()
+    protected function retryRequestWhenUnauthorized(): Closure
     {
-        // !! WIP
-    }
-
-    /**
-     * Return list of credential value from the config.
-     *
-     * @return array
-     */
-    protected function getCredentials(): array
-    {
-        return Arr::only($this->config, [
-            'hmac_username',
-            'hmac_secret',
-        ]);
-    }
-
-    /**
-     * Register closure on the request instance to handle login re-attempt process
-     * when the given response is unauthorized.
-     *
-     * @param  int  $times
-     * @param  int  $sleep
-     * @param  bool  $throw
-     * @return void
-     */
-    protected function reattemptLoginWhenUnauthorized(int $times, int $sleep = 0, bool $throw = true)
-    {
-        $this->request->retry($times, $sleep, function (Throwable $exception, PendingRequest $request) {
-            if (! $exception instanceof RequestException || $exception->getCode() !== HttpResponse::HTTP_UNAUTHORIZED) {
-                return false;
-            }
-
-            // !! WIP
-
-            return true;
-        }, $throw);
+        return fn (Throwable $exception) =>
+            $exception instanceof RequestException &&
+            $exception->getCode() === HttpResponse::HTTP_UNAUTHORIZED;
     }
 }

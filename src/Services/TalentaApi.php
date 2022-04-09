@@ -6,7 +6,6 @@ use BadMethodCallException;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Traits\Macroable;
 use RuntimeException;
 
@@ -20,6 +19,7 @@ class TalentaApi
     }
     use Api\Employee;
     use Concerns\HandleAuthentication;
+    use Concerns\HandlePendingRequest;
 
     /**
      * List of escaped method when __call() is called.
@@ -31,15 +31,12 @@ class TalentaApi
         'sendRequestToTalenta',
 
         // Concerns\HandleAuthentication
-        'isRequestAuthenticated',
         'authenticateRequest',
-        'getCookiesFromLogin',
-        'getCredentials',
-        'reattemptLoginWhenUnauthorized',
+        'retryRequestWhenUnauthorized',
     ];
 
     /**
-     * Instance of \Illuminate\Http\Client\PendingRequest to make the request.
+     * Instance of \Illuminate\Http\Client\PendingRequest to build the request.
      *
      * @var \Illuminate\Http\Client\PendingRequest
      */
@@ -54,30 +51,20 @@ class TalentaApi
      */
     public function __construct(protected array $config, $sslVerify = null)
     {
-        $this->createRequestInstance(
-            $sslVerify, Arr::except($config['guzzle_options'], 'verify')
+        $this->request = $this->createRequestInstance(
+            $this->config['base_url'],
+            $sslVerify,
+            Arr::except($config['guzzle_options'], 'verify')
         );
 
-        $this->reattemptLoginWhenUnauthorized(
+        $this->request->beforeSending($this->authenticateRequest());
+
+        $this->request->retry(
             $config['request_retry_times'],
-            $config['request_retry_sleep']
+            $config['request_retry_sleep'],
+            $this->retryRequestWhenUnauthorized(),
+            true
         );
-    }
-
-    /**
-     * Create Laravel HTTP client request instance.
-     *
-     * @param  string|bool|null  $sslVerify
-     * @param  array  $options
-     * @return void
-     */
-    protected function createRequestInstance($sslVerify = null, array $options)
-    {
-        $this->request = Http::baseUrl($this->config['base_url'])->withOptions($options);
-
-        if (! is_null($sslVerify)) {
-            $this->request->withOptions(['verify' => $sslVerify]);
-        }
     }
 
     /**
@@ -124,10 +111,6 @@ class TalentaApi
             throw new BadMethodCallException(sprintf(
                 'Method %s::%s is in the escaped method list.', static::class, $method
             ));
-        }
-
-        if (! $this->isRequestAuthenticated()) {
-            $this->authenticateRequest();
         }
 
         return $this->sendRequestToTalenta($method, $parameters);
