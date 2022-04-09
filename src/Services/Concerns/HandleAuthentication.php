@@ -25,12 +25,18 @@ trait HandleAuthentication
     {
         return function (Request $request, array $options, PendingRequest $pendingRequest) {
             $date = Carbon::now()->toRfc7231String();
-            $requestLine = sprintf('%s %s HTTP/1.1', $request->method(), $request->url());
 
-            $digest = hash_hmac('sha256', implode('\n', [
+            $requestLine = sprintf(
+                '%s %s HTTP/%s',
+                $request->method(),
+                $request->toPsrRequest()->getUri()->withScheme('')->withHost(''),
+                $request->toPsrRequest()->getProtocolVersion()
+            );
+
+            $digest = hash_hmac('sha256', implode("\n", [
                 'date: ' . $date,
                 $requestLine,
-            ]), $this->config['hmac_secret']);
+            ]), $this->config['hmac_secret'], true);
 
             $signature = base64_encode($digest);
 
