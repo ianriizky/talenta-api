@@ -3,7 +3,6 @@
 namespace Ianriizky\TalentaApi\Services;
 
 use BadMethodCallException;
-use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Traits\Macroable;
