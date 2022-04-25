@@ -5,29 +5,18 @@ name: Testing Laravel
 on: [push, pull_request]
 
 jobs:
-  laravel:
-    name: Laravel (PHP ${{ matrix.php-versions }})
+  testing-package:
+    name: Laravel ${{ matrix.laravel-versions }} (PHP ${{ matrix.php-versions }})
 
     runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
       matrix:
-        php-versions:
-          - [7.3, 7.4, 8.0]
-          - [8.0, 8.1]
-        laravel-versions: [8.*, 9.*]
+        php-versions: [7.3, 7.4, 8.0, 8.1]
+        laravel-versions: [8.*]
+        testbench-version: [6.*]
         composer-dependency-versions: [prefer-lowest, prefer-stable]
-        include:
-          - laravel-versions: 8.*
-            testbench-version: 6.*
-          - laravel-versions: 9.*
-            testbench-version: 7.*
-        exclude:
-          - laravel-versions: 8.*
-            php-versions: [8.0, 8.1]
-          - laravel-versions: 9.*
-            php-versions: [7.3, 7.4, 8.0]
 
     steps:
       - name: Checkout
