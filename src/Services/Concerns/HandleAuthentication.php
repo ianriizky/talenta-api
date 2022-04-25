@@ -47,9 +47,9 @@ trait HandleAuthentication
                 'signature' => $signature,
             ];
 
-            $authorization = collect($hmacHeader)
-                ->map(fn ($value, $key) => sprintf('%s="%s"', $key, $value))
-                ->implode(', ');
+            $authorization = collect($hmacHeader)->map(function ($value, $key) {
+                return sprintf('%s="%s"', $key, $value);
+            })->implode(', ');
 
             $pendingRequest->withHeaders([
                 'Authorization' => $authorization,
@@ -65,8 +65,10 @@ trait HandleAuthentication
      */
     protected function retryRequestWhenUnauthorized(): Closure
     {
-        return fn (Throwable $exception) =>
-            $exception instanceof RequestException &&
-            $exception->getCode() === HttpResponse::HTTP_UNAUTHORIZED;
+        return function (Throwable $exception) {
+            return
+                $exception instanceof RequestException &&
+                $exception->getCode() === HttpResponse::HTTP_UNAUTHORIZED;
+        };
     }
 }
