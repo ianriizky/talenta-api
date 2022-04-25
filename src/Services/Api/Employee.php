@@ -14,6 +14,8 @@ trait Employee
      *
      * @param  array|string|null  $query
      * @return \Illuminate\Http\Client\Response
+     *
+     * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1#904b41dc-1d5f-4954-889f-f952f11c989a
      */
     protected function getAllEmployee($query = null): Response
     {
