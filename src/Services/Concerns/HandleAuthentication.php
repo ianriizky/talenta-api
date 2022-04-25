@@ -34,7 +34,7 @@ trait HandleAuthentication
             );
 
             $digest = hash_hmac('sha256', implode("\n", [
-                'date: ' . $date,
+                'date: '.$date,
                 $requestLine,
             ]), $this->config['hmac_secret'], true);
 
