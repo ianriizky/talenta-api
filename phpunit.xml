@@ -16,5 +16,9 @@
     </coverage>
     <php>
         <env name="APP_KEY" value="base64:LZ7oLro/b1IzaQudYw7IlvmzHduzyCQuW8PEoN1wC8I=" />
+        <env name="APP_ENV" value="testing" />
+        <env name="TALENTA_BASE_URL" value="https://demo-talenta-api.mekari.com/v2" />
+        <env name="TALENTA_HMAC_USERNAME" value="uyNcspbixTWwTVg8" />
+        <env name="TALENTA_HMAC_SECRET" value="xpd7A4raPRdbTVH65RVXGoHaAG0ficYo" />
     </php>
 </phpunit>

@@ -22,7 +22,7 @@ composer require ianriizky/talenta-api
 
 ## Testing
 ```bash
-./vendor/bin/pest
+composer test
 ```
 
 ## Changelog
