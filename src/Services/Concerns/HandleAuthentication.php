@@ -3,11 +3,11 @@
 namespace Ianriizky\TalentaApi\Services\Concerns;
 
 use Closure;
-use Illuminate\Http\Client\PendingRequest;
-use Illuminate\Http\Client\Request;
+use GuzzleHttp\Middleware;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Carbon;
+use Psr\Http\Message\RequestInterface;
 use Throwable;
 
 /**
@@ -19,38 +19,40 @@ trait HandleAuthentication
     /**
      * Create a callback to set authentication data before sending the request.
      *
-     * @return \Closure
+     * @return callable
      */
-    protected function authenticateRequest(): Closure
+    protected function authenticateRequest(): callable
     {
-        return function (Request $request, array $options, PendingRequest $pendingRequest) {
-            $pendingRequest->withHeaders(
-                static::createAuthenticateRequestHeader(
-                    $request,
-                    $this->config['hmac_username'],
-                    $this->config['hmac_secret']
-                )
+        return Middleware::mapRequest(function (RequestInterface $request) {
+            $headers = static::createAuthenticateRequestHeader(
+                $request,
+                $this->config['hmac_username'],
+                $this->config['hmac_secret']
             );
-        };
+
+            return $request
+                ->withHeader('Authorization', $headers['Authorization'])
+                ->withHeader('Date', $headers['Date']);
+        });
     }
 
     /**
      * Create authentication request header.
      *
-     * @param  \Illuminate\Http\Client\Request  $request
+     * @param  \Psr\Http\Message\RequestInterface  $request
      * @param  string  $hmacUsername
      * @param  string  $hmacSecret
      * @return array<string, string>
      */
-    protected static function createAuthenticateRequestHeader(Request $request, string $hmacUsername, string $hmacSecret): array
+    protected static function createAuthenticateRequestHeader(RequestInterface $request, string $hmacUsername, string $hmacSecret): array
     {
         $date = Carbon::now()->toRfc7231String();
 
         $requestLine = sprintf(
             '%s %s HTTP/%s',
-            $request->method(),
-            $request->toPsrRequest()->getUri()->withScheme('')->withHost(''),
-            $request->toPsrRequest()->getProtocolVersion()
+            $request->getMethod(),
+            $request->getUri()->withScheme('')->withHost(''),
+            $request->getProtocolVersion()
         );
 
         $digest = hash_hmac('sha256', implode("\n", [
