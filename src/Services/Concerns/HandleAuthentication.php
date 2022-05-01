@@ -24,38 +24,57 @@ trait HandleAuthentication
     protected function authenticateRequest(): Closure
     {
         return function (Request $request, array $options, PendingRequest $pendingRequest) {
-            $date = Carbon::now()->toRfc7231String();
-
-            $requestLine = sprintf(
-                '%s %s HTTP/%s',
-                $request->method(),
-                $request->toPsrRequest()->getUri()->withScheme('')->withHost(''),
-                $request->toPsrRequest()->getProtocolVersion()
+            $pendingRequest->withHeaders(
+                static::createAuthenticateRequestHeader(
+                    $request,
+                    $this->config['hmac_username'],
+                    $this->config['hmac_secret']
+                )
             );
-
-            $digest = hash_hmac('sha256', implode("\n", [
-                'date: '.$date,
-                $requestLine,
-            ]), $this->config['hmac_secret'], true);
-
-            $signature = base64_encode($digest);
-
-            $hmacHeader = [
-                'hmac username' => $this->config['hmac_username'],
-                'algorithm' => 'hmac-sha256',
-                'headers' => 'date request-line',
-                'signature' => $signature,
-            ];
-
-            $authorization = collect($hmacHeader)->map(function ($value, $key) {
-                return sprintf('%s="%s"', $key, $value);
-            })->implode(', ');
-
-            $pendingRequest->withHeaders([
-                'Authorization' => $authorization,
-                'Date' => $date,
-            ]);
         };
+    }
+
+    /**
+     * Create authentication request header.
+     *
+     * @param  \Illuminate\Http\Client\Request  $request
+     * @param  string  $hmacUsername
+     * @param  string  $hmacSecret
+     * @return array<string, string>
+     */
+    protected static function createAuthenticateRequestHeader(Request $request, string $hmacUsername, string $hmacSecret): array
+    {
+        $date = Carbon::now()->toRfc7231String();
+
+        $requestLine = sprintf(
+            '%s %s HTTP/%s',
+            $request->method(),
+            $request->toPsrRequest()->getUri()->withScheme('')->withHost(''),
+            $request->toPsrRequest()->getProtocolVersion()
+        );
+
+        $digest = hash_hmac('sha256', implode("\n", [
+            'date: '.$date,
+            $requestLine,
+        ]), $hmacSecret, true);
+
+        $signature = base64_encode($digest);
+
+        $hmacHeader = [
+            'hmac username' => $hmacUsername,
+            'algorithm' => 'hmac-sha256',
+            'headers' => 'date request-line',
+            'signature' => $signature,
+        ];
+
+        $authorization = collect($hmacHeader)->map(function ($value, $key) {
+            return sprintf('%s="%s"', $key, $value);
+        })->implode(', ');
+
+        return [
+            'Authorization' => $authorization,
+            'Date' => $date,
+        ];
     }
 
     /**
