@@ -5,7 +5,7 @@ namespace Ianriizky\TalentaApi\Services\Api;
 use Illuminate\Http\Client\Response;
 
 /**
- * @property \Illuminate\Http\Client\PendingRequest $request
+ * @property \Ianriizky\TalentaApi\Http\Client\PendingRequest $request
  */
 trait Employee
 {

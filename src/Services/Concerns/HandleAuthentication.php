@@ -3,7 +3,8 @@
 namespace Ianriizky\TalentaApi\Services\Concerns;
 
 use Closure;
-use GuzzleHttp\Middleware;
+use Ianriizky\TalentaApi\Http\Client\PendingRequest;
+use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Carbon;
@@ -11,7 +12,7 @@ use Psr\Http\Message\RequestInterface;
 use Throwable;
 
 /**
- * @property \Illuminate\Http\Client\PendingRequest $request
+ * @property \Ianriizky\TalentaApi\Http\Client\PendingRequest $request
  * @property array $config
  */
 trait HandleAuthentication
@@ -23,17 +24,17 @@ trait HandleAuthentication
      */
     protected function authenticateRequest(): callable
     {
-        return Middleware::mapRequest(function (RequestInterface $request) {
+        return function (Request $request, array $options, PendingRequest $pendingRequest): RequestInterface {
             $headers = static::createAuthenticateRequestHeader(
-                $request,
+                $request->toPsrRequest(),
                 $this->config['hmac_username'],
                 $this->config['hmac_secret']
             );
 
-            return $request
+            return $request->toPsrRequest()
                 ->withHeader('Authorization', $headers['Authorization'])
                 ->withHeader('Date', $headers['Date']);
-        });
+        };
     }
 
     /**
