@@ -28,7 +28,7 @@ class TalentaApi
     }
     use Api\Employee;
     use Concerns\HandleAuthentication;
-    use Concerns\HandlePendingRequest;
+    use Concerns\HandleHTTPClient;
 
     /**
      * List of escaped method when __call() is called.
@@ -45,8 +45,6 @@ class TalentaApi
     ];
 
     /**
-     * Instance of PendingRequest to build the request.
-     *
      * @var \Ianriizky\TalentaApi\Http\Client\PendingRequest
      */
     protected $request;

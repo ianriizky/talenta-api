@@ -5,7 +5,7 @@ namespace Ianriizky\TalentaApi\Services\Concerns;
 use Ianriizky\TalentaApi\Http\Client\PendingRequest;
 use Ianriizky\TalentaApi\Support\Facades\Http;
 
-trait HandlePendingRequest
+trait HandleHTTPClient
 {
     use ParseUrl;
 

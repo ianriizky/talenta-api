@@ -37,10 +37,7 @@
     "autoload-dev": {
         "psr-4": {
             "Ianriizky\\TalentaApi\\Tests\\": "tests/"
-        },
-        "files": [
-            "tests/helpers.php"
-        ]
+        }
     },
     "scripts": {
         "post-autoload-dump": [
