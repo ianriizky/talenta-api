@@ -1,0 +1,19 @@
+{
+    "message": "Successfully update employee informal education data",
+    "data": {
+        "informal_education": {
+            "id": 3180,
+            "reference_id": 12,
+            "name": "TDA test",
+            "held_by_institution_name": "company tedt",
+            "start_date": "2021-11-30",
+            "end_date": "2021-11-30",
+            "duration_type": 1,
+            "duration": 1,
+            "fee": "1000",
+            "description": "test api",
+            "certification": true,
+            "filename": "https://development-test2.s3.ap-southeast-1.amazonaws.com/myinfo/training/CuJWIKPOm8lcX6clw-sfCUBp6EFi3sMm.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzECwaDAvPXIIOgpPz%2FauJFyLDAc0pkUNb7a5hDYF%2F3vq6DXUc1AuwaN9p5mHyLoICF2jRRntYfZ%2BlkfaXFOqDIkSSJLoV2GxCkfVpVejIRpZ4EHivsYiAki4J8UKutAsFk9UkbqeLsmslzqHwORIm3u2V64uNf3Wh1mZPkR6BDdupTKYUZOWbuSMSpyzrKe0ifmRM9D7xSMO4DFtQda3J%2Bq3N7XeL2tDLM6uSRF21xF8us8J6ni5m5mFrhzyprTj1%2FBn7jankqH8eFHWuswWxYzqzqbozBiiA1%2BePBjItaRKK3JkkRpQdsqz38u5%2FYuUtDowpjivvpurl4vCQ4yRnS5R%2F2hzJ7DLcAXRJ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3A7QLOC3GWXF3YSH%2F20220202%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20220202T022920Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=df310a69906519aec2fd377040ee2d4a6a4afc2472787d652da0722ea06b7b52"
+        }
+    }
+}

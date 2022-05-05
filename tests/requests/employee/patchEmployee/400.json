@@ -1,0 +1,32 @@
+{
+    "employee_id": "OBIWAN-698",
+    "first_name": "John Doe",
+    "last_name": "Movic",
+    "email": "johndoe@mailtrap.co",
+    "date_of_birth": "2020-01-12",
+    "gender": "1",
+    "marital_status": "1",
+    "religion": "12",
+    "branch": "Bandungan",
+    "organization_name": "Finance & Accounting",
+    "job_position": "Manager HRD & GA",
+    "job_level": "Staff",
+    "employment_status": "320",
+    "join_date": "12-12-2020",
+    "mobile_phone_number": "09381803",
+    "home_phone_number": "09381803",
+    "place_of_birth": "Semaraaannggg",
+    "blood_type": 2,
+    "citizen_id_type": "1",
+    "citizen_id_expired_date": "2040-12-31",
+    "citizen_id": "9301993993999929292929",
+    "citizen_address": "Jalan Gajah Mada, Semarang",
+    "residential_address": "Jalan Gajah Mada, Semarang",
+    "postal_code": "308133",
+    "barcode": "0001",
+    "approval_line": "EMYD712",
+    "custom_fields": {
+        "Lucky_Date": "2020-05-10",
+        "Cost_Center": "10000"
+    }
+}

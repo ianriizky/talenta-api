@@ -1,0 +1,6 @@
+{
+    "message": "unauthorized access",
+    "errors": [
+        "company_id mismatched"
+    ]
+}

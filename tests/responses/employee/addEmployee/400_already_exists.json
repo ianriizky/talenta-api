@@ -1,0 +1,7 @@
+{
+    "message": "Data not valid",
+    "errors": [
+        "employee_id MSI-007A has already been taken",
+        "email jamesbond@mailer.co has already been taken"
+    ]
+}

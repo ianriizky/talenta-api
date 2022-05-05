@@ -1,0 +1,6 @@
+{
+    "message": "unable to resolve the employee id",
+    "errors": [
+        "user unauthorized to see this information"
+    ]
+}

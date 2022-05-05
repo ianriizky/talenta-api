@@ -1,0 +1,11 @@
+{
+    "message": "Data not valid",
+    "errors": [
+        "approval_line EMYD712 doesn't exist",
+        "class needs valid parent grade",
+        "religion can only be number from 1 to 7 . See docs for more details",
+        "branch Bandungan doesn't exist",
+        "employment_status 320 doesn't exist",
+        "join_date must be in YYYY-MM-DD format"
+    ]
+}

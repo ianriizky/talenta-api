@@ -1,0 +1,6 @@
+{
+    "message": "Data not valid",
+    "errors": [
+        "quota to add employee is over limit, please check your company quota"
+    ]
+}

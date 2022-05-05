@@ -1,0 +1,9 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "user_id is required",
+        "start_date id required",
+        "education_name is required",
+        "duration_type is required"
+    ]
+}

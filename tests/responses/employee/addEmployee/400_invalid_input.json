@@ -1,0 +1,20 @@
+{
+    "message": "Data not valid",
+    "errors": [
+        "class 001 with parent grade F doesn't exist",
+        "approval_line EMYD-712 doesn't exist",
+        "grade F doesn't exist",
+        "class needs valid parent grade",
+        "religion can only be number from 1 to 7 . See docs for more details",
+        "branch Bandungan doesn't exist",
+        "employment_status 320 doesn't exist",
+        "join_date must be in YYYY-MM-DD format",
+        "basic_salary must be positive integer",
+        "invite_ess can only be true or false",
+        "postal_code must be a number",
+        "payment_schedule ad doesn't exist",
+        "mobile_phone_number must be a number",
+        "home_phone_number must be a number",
+        "bank_account must be a number"
+    ]
+}
