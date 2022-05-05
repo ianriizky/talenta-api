@@ -8,6 +8,7 @@ use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Carbon;
+use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
 use Throwable;
 
@@ -25,7 +26,7 @@ trait HandleAuthentication
     protected function authenticateRequest(): callable
     {
         return function (Request $request, array $options, PendingRequest $pendingRequest): RequestInterface {
-            $headers = static::createAuthenticateRequestHeader(
+            $headers = static::createAuthenticationRequestHeader(
                 $request->toPsrRequest(),
                 $this->config['hmac_username'],
                 $this->config['hmac_secret']
@@ -43,31 +44,18 @@ trait HandleAuthentication
      * @param  \Psr\Http\Message\RequestInterface  $request
      * @param  string  $hmacUsername
      * @param  string  $hmacSecret
+     * @param  \Illuminate\Support\Carbon|null  $date
      * @return array<string, string>
      */
-    protected static function createAuthenticateRequestHeader(RequestInterface $request, string $hmacUsername, string $hmacSecret): array
+    protected static function createAuthenticationRequestHeader(RequestInterface $request, string $hmacUsername, string $hmacSecret, Carbon $date = null): array
     {
-        $date = Carbon::now()->toRfc7231String();
-
-        $requestLine = sprintf(
-            '%s %s HTTP/%s',
-            $request->getMethod(),
-            $request->getUri()->withScheme('')->withHost(''),
-            $request->getProtocolVersion()
-        );
-
-        $digest = hash_hmac('sha256', implode("\n", [
-            'date: '.$date,
-            $requestLine,
-        ]), $hmacSecret, true);
-
-        $signature = base64_encode($digest);
+        $date = $date ?? Carbon::now();
 
         $hmacHeader = [
             'hmac username' => $hmacUsername,
             'algorithm' => 'hmac-sha256',
             'headers' => 'date request-line',
-            'signature' => $signature,
+            'signature' => static::createAuthenticationSignature($date, $request, $hmacSecret),
         ];
 
         $authorization = collect($hmacHeader)->map(function ($value, $key) {
@@ -76,8 +64,41 @@ trait HandleAuthentication
 
         return [
             'Authorization' => $authorization,
-            'Date' => $date,
+            'Date' => $date->toRfc7231String(),
         ];
+    }
+
+    /**
+     * Create authentication signature using sha256 hash and base64 encoding.
+     *
+     * @param  \Illuminate\Support\Carbon  $date
+     * @param  string|\Psr\Http\Message\RequestInterface  $request
+     * @param  string  $hmacSecret
+     * @return string
+     *
+     * @throws \InvalidArgumentException
+     */
+    protected static function createAuthenticationSignature(Carbon $date, $request, string $hmacSecret): string
+    {
+        if (is_string($request)) {
+            $requestLine = $request;
+        } elseif ($request instanceof RequestInterface) {
+            $requestLine = sprintf(
+                '%s %s HTTP/%s',
+                $request->getMethod(),
+                $request->getUri()->withScheme('')->withHost(''),
+                $request->getProtocolVersion()
+            );
+        } else {
+            throw new InvalidArgumentException('The given $request parameter must be a string or a '.RequestInterface::class.' instance.');
+        }
+
+        $digest = hash_hmac('sha256', implode("\n", [
+            'date: '.$date->toRfc7231String(),
+            $requestLine,
+        ]), $hmacSecret, true);
+
+        return base64_encode($digest);
     }
 
     /**

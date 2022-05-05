@@ -35,13 +35,14 @@ class TalentaApi
      *
      * @var array<int, string>
      */
-    public static $escapedMethods = [
-        'createRequestInstance',
+    protected static $escapedMethods = [
         'sendRequestToTalenta',
-
-        // Concerns\HandleAuthentication
         'authenticateRequest',
+        'createAuthenticationRequestHeader',
         'retryRequestWhenUnauthorized',
+        'createRequestInstance',
+        'createFreshRequestInstance',
+        'parseBaseUrl',
     ];
 
     /**

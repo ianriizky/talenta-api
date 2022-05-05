@@ -2,10 +2,12 @@
 
 namespace Ianriizky\TalentaApi\Tests;
 
+use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Ianriizky\TalentaApi\Support\Facades\Http;
 use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
 use Illuminate\Testing\Assert;
 use Mockery as m;
 
@@ -48,10 +50,19 @@ class ApiTestCase extends TestCase
             /** @var \Illuminate\Http\Client\Request $request */
             $request = $this;
 
-            return
-                $request->hasHeader('Authorization') &&
-                $request->hasHeader('Date') &&
-                Carbon::hasFormat($request->header('Date')[0], Carbon::RFC7231_FORMAT);
+            if (! $request->hasHeader('Authorization') ||
+                ! $request->hasHeader('Date') ||
+                ! Carbon::hasFormat($request->header('Date')[0], Carbon::RFC7231_FORMAT)) {
+                return false;
+            }
+
+            $authorization = $request->header('Authorization')[0];
+            $date = Carbon::createFromFormat(Carbon::RFC7231_FORMAT, $request->header('Date')[0], 'UTC');
+
+            $expectedSignature = TalentaApi::createAuthenticationSignature($date, $request->toPsrRequest(), env('TALENTA_HMAC_SECRET'));
+            $actualSignature = Str::between($authorization, 'signature="', '"');
+
+            return hash_equals($expectedSignature, $actualSignature);
         });
 
         Response::macro('assertSameWithJsonPath', function (string $expectedJsonPath) {
