@@ -78,7 +78,7 @@ trait HandleAuthentication
      *
      * @throws \InvalidArgumentException
      */
-    protected static function createAuthenticationSignature(Carbon $date, $request, string $hmacSecret): string
+    public static function createAuthenticationSignature(Carbon $date, $request, string $hmacSecret): string
     {
         if (is_string($request)) {
             $requestLine = $request;
