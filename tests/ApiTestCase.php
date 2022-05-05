@@ -2,8 +2,8 @@
 
 namespace Ianriizky\TalentaApi\Tests;
 
-use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Ianriizky\TalentaApi\Support\Facades\Http;
+use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Carbon;
