@@ -1,0 +1,21 @@
+{
+    "message": "Get Employee Status Successfully",
+    "data": {
+        "status": {
+            "id": 935853,
+            "on-leave": true,
+            "on-leave-detail": [
+                {
+                    "id": "935853",
+                    "first_name": "SDET",
+                    "last_name": "Employee",
+                    "avatar": "",
+                    "policy_name": "DontDeleteAPI",
+                    "time_off_request_id": "153452",
+                    "start_date": "2021-03-01",
+                    "end_date": "2021-03-02"
+                }
+            ]
+        }
+    }
+}

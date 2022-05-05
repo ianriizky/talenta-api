@@ -1,0 +1,23 @@
+{
+    "message": "Successfully get employee informal education detail",
+    "data": {
+        "informal_education": {
+            "id": 3254,
+            "user_id": 935848,
+            "company_id": 3053,
+            "held_by_institution_name": "Lembaga Iusto.",
+            "name": "Course Et.",
+            "duration": 31,
+            "duration_type": 1,
+            "fee": "118329",
+            "certification": true,
+            "start_date": "2021-12-27",
+            "end_date": "2022-01-26",
+            "reference_id": 28,
+            "filename": "https://development-test2.s3.ap-southeast-1.amazonaws.com/myinfo/training/wLQJlpLmUnsNs_eBKI8nsxdZYOAC2zyx.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEGIaDEHJfsTsVA9hzVtPoiLDATIPTwZqJeLdMPBLd62hpNghK7HvUCETforSrmSQrYeGlj6mPcFVIhj2Rb7lS0D79BMdFjcSghrrR%2BKRlrVV1knhlcXtaRlF5gLulIfX7Qk00f5mjrWeIxJ1HEIcSA2AkXgzDE57yr50nwtDSyfUIQYgBcD%2FZ%2B%2BIPxq03ig6jRa29Z6rM23bVxLliH%2BZ3U6GOEUsPTQ7Rhnr1QhPJ3YvUm7pizf9nSI0uvCbe0dbwvZAA7Rw9bmHTBxPceWVJ6v%2BonQjwyi3yvOPBjItznPnejlaj2WDqSop0O5HpBVdp2V5Tc5QTlxPz4daK9NZGkMaid2uXiINv5AW&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3A7QLOC3AF6TD7NE%2F20220204%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20220204T083720Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=7f422cd28f47ac5ccdec439f74bb1b91f07945eaa43da46a75be18c5909e6dfb",
+            "description": "",
+            "create_date": "2022-01-27 10:40:09",
+            "update_date": "2022-01-27 10:40:09"
+        }
+    }
+}

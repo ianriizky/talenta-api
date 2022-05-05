@@ -1,0 +1,2431 @@
+{
+    "message": "Get employee successfully",
+    "data": {
+        "employees": [
+            {
+                "user_id": 571919,
+                "sso_id": "fb7589fb-a695-4f17-8f98-8e641540e643",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Superadmin",
+                    "barcode": "123QK",
+                    "email": "sdet-automation+test61@mekari.com",
+                    "identity_type": "KTP",
+                    "identity_number": "",
+                    "expired_date_identity_id": "2040-12-31",
+                    "postal_code": "308133",
+                    "address": "Jalan Gajah Mada, District 12",
+                    "current_address": "Jalan Gajah Mada, District 12",
+                    "birth_place": "District 12",
+                    "birth_date": "2020-01-12",
+                    "phone": "09381803",
+                    "mobile_phone": "09381803",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "B",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3.ap-southeast-1.amazonaws.com/avatar/croppedImg_1054526821.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEEwaDI9EU8dfzzTiCl%2Bv0CLDAcWcR5eXtYD9aYXgizu2ItRXPR4w3IbCUEP9HbZmh%2BjIpx5zexBEy4JsHmXWZq2%2FpLgbIMe0%2F7mzdRaQ7DtFbHzIFNXIjvL67Z0IR7KG4ey4e2q%2FWzm7cHVmY7vL7p6G8UrNRfXvSwF9hER29xFXqpn553GZs98%2BKGwTElmxMG5qoqus0z7jP%2FEZDqlZvFOCnZkelV0dNYVC0B4aRXoJpHi%2BWXz%2BcKvJ7awWTskgWJim6krwSEtQniyMK5BR%2BLH1EAJSeCjS68%2BRBjItqO%2F21MsqIxNapo81HKQ6249x3iBxA9tTd%2Bp3K114k%2FOxr0D2VpFt4mmo6aaH&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3A7QLOC3JW3MBA2E%2F20220318%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T030647Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=759e2d274693931968fda02d9b96d4321c91bd6a96765b0cd1edc1e3cb1dece6"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": [
+                        {
+                            "held_by_institution_name": "Lembaga Dolor.",
+                            "name": "Course Temporibus.",
+                            "duration": "8",
+                            "duration_type": "2",
+                            "fee": 271995,
+                            "certification": "1",
+                            "start_date": "2021-12-27",
+                            "end_date": "2022-01-26"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quod.",
+                            "name": "Course Nostrum.",
+                            "duration": "23",
+                            "duration_type": "2",
+                            "fee": 412850,
+                            "certification": "1",
+                            "start_date": "2021-12-27",
+                            "end_date": "2022-01-26"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Fuga.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 734388,
+                            "certification": "1",
+                            "start_date": "2022-01-03",
+                            "end_date": "2022-02-02"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ex.",
+                            "name": "Course Odio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 350687,
+                            "certification": "1",
+                            "start_date": "2022-01-03",
+                            "end_date": "2022-02-02"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Odit.",
+                            "name": "Course Consequatur.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 615688,
+                            "certification": "1",
+                            "start_date": "2022-01-04",
+                            "end_date": "2022-02-03"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Harum.",
+                            "name": "Course Est.",
+                            "duration": "21",
+                            "duration_type": "2",
+                            "fee": 950372,
+                            "certification": "1",
+                            "start_date": "2022-01-04",
+                            "end_date": "2022-02-03"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Soluta.",
+                            "duration": "20",
+                            "duration_type": "2",
+                            "fee": 615339,
+                            "certification": "1",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Veritatis.",
+                            "name": "Course Facere.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 820991,
+                            "certification": "1",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Voluptas.",
+                            "name": "Course Consequuntur.",
+                            "duration": "20",
+                            "duration_type": "2",
+                            "fee": 871745,
+                            "certification": "1",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Unde.",
+                            "name": "Course Vero.",
+                            "duration": "17",
+                            "duration_type": "2",
+                            "fee": 390407,
+                            "certification": "1",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Iste.",
+                            "name": "Course Itaque.",
+                            "duration": "5",
+                            "duration_type": "2",
+                            "fee": 295265,
+                            "certification": "0",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Molestias.",
+                            "name": "Course Sed.",
+                            "duration": "10",
+                            "duration_type": "2",
+                            "fee": 250348,
+                            "certification": "1",
+                            "start_date": "2022-01-10",
+                            "end_date": "2022-02-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Hic.",
+                            "name": "Course Laboriosam.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 882487,
+                            "certification": "1",
+                            "start_date": "2022-01-17",
+                            "end_date": "2022-02-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Placeat.",
+                            "name": "Course Sunt.",
+                            "duration": "23",
+                            "duration_type": "2",
+                            "fee": 419000,
+                            "certification": "1",
+                            "start_date": "2022-01-17",
+                            "end_date": "2022-02-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Saepe.",
+                            "name": "Course Quos.",
+                            "duration": "18",
+                            "duration_type": "2",
+                            "fee": 311480,
+                            "certification": "1",
+                            "start_date": "2022-01-17",
+                            "end_date": "2022-02-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Deserunt.",
+                            "name": "Course Aut.",
+                            "duration": "15",
+                            "duration_type": "2",
+                            "fee": 998400,
+                            "certification": "0",
+                            "start_date": "2022-01-17",
+                            "end_date": "2022-02-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quas.",
+                            "name": "Course Quasi.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 996916,
+                            "certification": "1",
+                            "start_date": "2022-01-17",
+                            "end_date": "2022-02-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Illo.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 185711,
+                            "certification": "1",
+                            "start_date": "2022-01-22",
+                            "end_date": "2022-02-21"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Culpa.",
+                            "name": "Course Odio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 186491,
+                            "certification": "1",
+                            "start_date": "2022-01-22",
+                            "end_date": "2022-02-21"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ducimus.",
+                            "name": "Course Cupiditate.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 416389,
+                            "certification": "1",
+                            "start_date": "2022-01-22",
+                            "end_date": "2022-02-21"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Nemo.",
+                            "name": "Course Ad.",
+                            "duration": "12",
+                            "duration_type": "2",
+                            "fee": 489175,
+                            "certification": "0",
+                            "start_date": "2022-01-22",
+                            "end_date": "2022-02-21"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Distinctio.",
+                            "name": "Course Distinctio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 688533,
+                            "certification": "1",
+                            "start_date": "2022-01-22",
+                            "end_date": "2022-02-21"
+                        },
+                        {
+                            "held_by_institution_name": "company tedt",
+                            "name": "Testing fasttrack TDA Production",
+                            "duration": "1",
+                            "duration_type": "1",
+                            "fee": 1000,
+                            "certification": "0",
+                            "start_date": "2021-11-30",
+                            "end_date": "2021-11-30"
+                        },
+                        {
+                            "held_by_institution_name": "",
+                            "name": "Testing fasttrack TDA Production",
+                            "duration": "1",
+                            "duration_type": "1",
+                            "fee": 1000,
+                            "certification": "0",
+                            "start_date": "2021-11-30",
+                            "end_date": "2021-11-30"
+                        },
+                        {
+                            "held_by_institution_name": "company tedt",
+                            "name": "Testing fasttrack TDA Production",
+                            "duration": "1",
+                            "duration_type": "1",
+                            "fee": 1000,
+                            "certification": "0",
+                            "start_date": "2021-11-30",
+                            "end_date": "2021-11-30"
+                        },
+                        {
+                            "held_by_institution_name": "company tedt",
+                            "name": "Testing fasttrack TDA Production 1",
+                            "duration": "30",
+                            "duration_type": "1",
+                            "fee": 1000,
+                            "certification": "0",
+                            "start_date": "2021-11-01",
+                            "end_date": "2021-11-30"
+                        },
+                        {
+                            "held_by_institution_name": "company test",
+                            "name": "Belajar 123",
+                            "duration": "1",
+                            "duration_type": "1",
+                            "fee": 1000,
+                            "certification": "0",
+                            "start_date": "2021-11-30",
+                            "end_date": "2021-11-30"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Aperiam.",
+                            "name": "Course Reprehenderit.",
+                            "duration": "5",
+                            "duration_type": "2",
+                            "fee": 544948,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Eius.",
+                            "name": "Course Illum.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 260723,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Maiores.",
+                            "name": "Course Qui.",
+                            "duration": "4",
+                            "duration_type": "2",
+                            "fee": 746022,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Sint.",
+                            "name": "Course Odio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 309349,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Nulla.",
+                            "name": "Course Et.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 766480,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Placeat.",
+                            "name": "Course Quaerat.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 952412,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Animi.",
+                            "name": "Course Aut.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 277290,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Aut.",
+                            "name": "Course Illum.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 608168,
+                            "certification": "1",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Odit.",
+                            "name": "Course Autem.",
+                            "duration": "12",
+                            "duration_type": "2",
+                            "fee": 816853,
+                            "certification": "0",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quia.",
+                            "name": "Course Aperiam.",
+                            "duration": "15",
+                            "duration_type": "2",
+                            "fee": 835574,
+                            "certification": "0",
+                            "start_date": "2022-01-24",
+                            "end_date": "2022-02-23"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Doloremque.",
+                            "duration": "9",
+                            "duration_type": "2",
+                            "fee": 923125,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Odio.",
+                            "name": "Course Accusantium.",
+                            "duration": "19",
+                            "duration_type": "2",
+                            "fee": 569919,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Non.",
+                            "name": "Course Dolorem.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 561354,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ipsum.",
+                            "name": "Course Ea.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 280681,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Deleniti.",
+                            "name": "Course Provident.",
+                            "duration": "1",
+                            "duration_type": "2",
+                            "fee": 903209,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Voluptatem.",
+                            "name": "Course Omnis.",
+                            "duration": "23",
+                            "duration_type": "2",
+                            "fee": 220843,
+                            "certification": "0",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Corporis.",
+                            "name": "Course Aliquid.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 364548,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Architecto.",
+                            "duration": "22",
+                            "duration_type": "2",
+                            "fee": 634651,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Quis.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 788185,
+                            "certification": "1",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Accusantium.",
+                            "name": "Course Ad.",
+                            "duration": "5",
+                            "duration_type": "2",
+                            "fee": 924278,
+                            "certification": "0",
+                            "start_date": "2022-01-29",
+                            "end_date": "2022-02-28"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Qui.",
+                            "name": "Course Mollitia.",
+                            "duration": "3",
+                            "duration_type": "2",
+                            "fee": 350783,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Aperiam.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 212356,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Aut.",
+                            "name": "Course Earum.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 587078,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Id.",
+                            "name": "Course Repellat.",
+                            "duration": "23",
+                            "duration_type": "2",
+                            "fee": 598342,
+                            "certification": "0",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quia.",
+                            "name": "Course Quaerat.",
+                            "duration": "3",
+                            "duration_type": "2",
+                            "fee": 422607,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ut.",
+                            "name": "Course Natus.",
+                            "duration": "2",
+                            "duration_type": "2",
+                            "fee": 529226,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Deleniti.",
+                            "name": "Course Fuga.",
+                            "duration": "24",
+                            "duration_type": "2",
+                            "fee": 640668,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quis.",
+                            "name": "Course Optio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 553656,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Vel.",
+                            "duration": "17",
+                            "duration_type": "2",
+                            "fee": 477985,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Unde.",
+                            "name": "Course Nesciunt.",
+                            "duration": "23",
+                            "duration_type": "2",
+                            "fee": 712469,
+                            "certification": "0",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Minima.",
+                            "name": "Course Inventore.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 399627,
+                            "certification": "1",
+                            "start_date": "2022-02-04",
+                            "end_date": "2022-03-06"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Nam.",
+                            "name": "Course Quibusdam.",
+                            "duration": "19",
+                            "duration_type": "2",
+                            "fee": 484543,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Consequatur.",
+                            "name": "Course Voluptas.",
+                            "duration": "6",
+                            "duration_type": "2",
+                            "fee": 211650,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Aliquam.",
+                            "name": "Course Itaque.",
+                            "duration": "4",
+                            "duration_type": "2",
+                            "fee": 550352,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Illum.",
+                            "name": "Course Porro.",
+                            "duration": "16",
+                            "duration_type": "2",
+                            "fee": 732618,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Provident.",
+                            "name": "Course Doloremque.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 191706,
+                            "certification": "0",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Eos.",
+                            "name": "Course Odio.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 179881,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Consequatur.",
+                            "name": "Course Voluptatum.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 513500,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Dolorem.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 871892,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Et.",
+                            "name": "Course Excepturi.",
+                            "duration": "5",
+                            "duration_type": "2",
+                            "fee": 666305,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Cupiditate.",
+                            "name": "Course Fuga.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 137545,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Asperiores.",
+                            "name": "Course Est.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 683151,
+                            "certification": "1",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Voluptatem.",
+                            "name": "Course Perspiciatis.",
+                            "duration": "8",
+                            "duration_type": "2",
+                            "fee": 530152,
+                            "certification": "0",
+                            "start_date": "2022-02-07",
+                            "end_date": "2022-03-09"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ex.",
+                            "name": "Course Tempore.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 531962,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Dolores.",
+                            "name": "Course A.",
+                            "duration": "5",
+                            "duration_type": "2",
+                            "fee": 499546,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Possimus.",
+                            "name": "Course Hic.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 994324,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Voluptatem.",
+                            "name": "Course Deleniti.",
+                            "duration": "16",
+                            "duration_type": "2",
+                            "fee": 592699,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Deleniti.",
+                            "name": "Course Est.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 470377,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Unde.",
+                            "name": "Course Consequatur.",
+                            "duration": "14",
+                            "duration_type": "2",
+                            "fee": 981388,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Vel.",
+                            "name": "Course Maiores.",
+                            "duration": "13",
+                            "duration_type": "2",
+                            "fee": 166082,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Voluptatibus.",
+                            "name": "Course Vitae.",
+                            "duration": "17",
+                            "duration_type": "2",
+                            "fee": 621850,
+                            "certification": "0",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Sed.",
+                            "name": "Course Delectus.",
+                            "duration": "2",
+                            "duration_type": "2",
+                            "fee": 173734,
+                            "certification": "1",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Consectetur.",
+                            "name": "Course Accusantium.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 856144,
+                            "certification": "0",
+                            "start_date": "2022-02-14",
+                            "end_date": "2022-03-16"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Magnam.",
+                            "name": "Course Nisi.",
+                            "duration": "2",
+                            "duration_type": "2",
+                            "fee": 671930,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Recusandae.",
+                            "name": "Course Molestiae.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 703653,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Maiores.",
+                            "name": "Course In.",
+                            "duration": "15",
+                            "duration_type": "2",
+                            "fee": 833193,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Ipsam.",
+                            "name": "Course Libero.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 160029,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Eveniet.",
+                            "name": "Course Explicabo.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 880213,
+                            "certification": "0",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Vel.",
+                            "name": "Course Praesentium.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 510317,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Quis.",
+                            "name": "Course Eos.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 965302,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Sit.",
+                            "name": "Course Eum.",
+                            "duration": "24",
+                            "duration_type": "2",
+                            "fee": 228785,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Perspiciatis.",
+                            "name": "Course Ut.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 314837,
+                            "certification": "0",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Officiis.",
+                            "name": "Course Aut.",
+                            "duration": "12",
+                            "duration_type": "2",
+                            "fee": 449179,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        },
+                        {
+                            "held_by_institution_name": "Lembaga Aut.",
+                            "name": "Course Aperiam.",
+                            "duration": "31",
+                            "duration_type": "1",
+                            "fee": 282350,
+                            "certification": "1",
+                            "start_date": "2022-02-15",
+                            "end_date": "2022-03-17"
+                        }
+                    ]
+                },
+                "employment": {
+                    "employee_id": "SDET-001",
+                    "company_id": 3620,
+                    "organization_id": "79746",
+                    "organization_name": "BOD",
+                    "job_position_id": 241267,
+                    "job_position": "CEO",
+                    "job_level": "Staff",
+                    "employment_status": "Contract",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2020-12-12",
+                    "length_of_service": "1 Year 3 Month 7 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 85,
+                    "cost_center_name": "COST CENTER DONT DELETE",
+                    "cost_center_category_id": 1,
+                    "cost_center_category_name": "Direct"
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 1,
+                    "name": "Super Admin",
+                    "role_id": 1,
+                    "role_name": "Super Admin",
+                    "role_type": "default"
+                },
+                "created_at": "2020-11-17 12:16:15",
+                "updated_at": "2022-03-02 15:39:57"
+            },
+            {
+                "user_id": 571923,
+                "sso_id": "a3cf75b6-a756-4505-aecc-ad1a21080b95",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee",
+                    "barcode": "MKR861",
+                    "email": "sdet-automation+test62@mekari.com",
+                    "identity_type": "KTP",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "Johor Baru",
+                    "birth_date": "1992-07-08",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Married",
+                    "blood_type": "AB",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3.ap-southeast-1.amazonaws.com/avatar/20211202_132523_icon.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEE0aDB59OsFCXgqlKjmD%2FSLCAdOarZrzkV7b3c%2FUJIcmCa2Ik5TUoriwHcWe6fk%2BHKU2voF0%2FZjHH98ej5c%2BV1Lq84XCJcBcKjBFsatmb7BvOFY73ULcAHIuFgF6YshWXunPjDloBhbXi5P%2BYxEmDgnI0uncPRg8K2LzFnY8d%2BF5dlc%2FCF7u4PN8biDthspLWyE%2FgZJb%2BrtAVQXLu3ELhfg5bwrQ1p7OZW2oK%2F3XrgqQiDyiLx9kgo1Eje2qTSJNuD51sVbn9G6R%2BZJW%2BPUsoJDz2NxmKIfzz5EGMi3QL49daT9BDFGm0mbQcKjZVtBkn20HWC2RD9jfNvF2w%2F%2FdWfB8AnjkXtJDgjM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3A7QLOC3EILLDJMT%2F20220318%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T031630Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=1a7204bb2ac2bf608036f609f1e158a7b3d56c2afc440d885723a927409dc340"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Manager",
+                    "employment_status": "employment status dont delete",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2018-01-08",
+                    "length_of_service": "4 Year 2 Month 11 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 85,
+                    "cost_center_name": "COST CENTER DONT DELETE",
+                    "cost_center_category_id": 1,
+                    "cost_center_category_name": "Direct"
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": "2"
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2020-11-17 12:47:11",
+                "updated_at": "2022-03-18 07:28:54"
+            },
+            {
+                "user_id": 571925,
+                "sso_id": "001a1a99-c556-47aa-a245-3c2217c13fc3",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Resign",
+                    "barcode": "MKR858",
+                    "email": "sdet-automation+test010@mekari.com",
+                    "identity_type": "KTP",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "Johor Baru",
+                    "birth_date": "1993-10-08",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Married",
+                    "blood_type": "O",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-010",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241281,
+                    "job_position": "Manager IT",
+                    "job_level": "Manager",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Resigned",
+                    "resign_date": "2020-11-13",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2020-11-17 12:51:21",
+                "updated_at": "2021-01-16 11:55:02"
+            },
+            {
+                "user_id": 602219,
+                "sso_id": "9fd09ef6-6cd2-4783-8b57-84de15452504",
+                "personal": {
+                    "first_name": "91105 abbieabbie",
+                    "last_name": "Budiono",
+                    "barcode": "5181264492",
+                    "email": "sdet-automation+test62-3@mekari.com",
+                    "identity_type": "KTP",
+                    "identity_number": "2891321216",
+                    "expired_date_identity_id": "2022-03-18",
+                    "postal_code": "82068",
+                    "address": "Apt. 670 Jl. Kartini No. 61, Tabalong, BB 81336",
+                    "current_address": "Jl. Gajahmada No. 12, Tasikmalaya, BB 06812",
+                    "birth_place": "jakarta",
+                    "birth_date": "2000-11-29",
+                    "phone": "7032092210",
+                    "mobile_phone": "9499890105",
+                    "gender": "Female",
+                    "marital_status": "Widow",
+                    "blood_type": "O",
+                    "religion": "Christian",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "91105 abbieabbie",
+                    "company_id": 3620,
+                    "organization_id": "79746",
+                    "organization_name": "BOD",
+                    "job_position_id": 241277,
+                    "job_position": "Manager Sales & Marketing",
+                    "job_level": "Manager",
+                    "employment_status": "Probation",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2006-04-22",
+                    "length_of_service": "15 Year 10 Month 25 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2020-12-21 17:25:03",
+                "updated_at": "2022-03-18 04:39:49"
+            },
+            {
+                "user_id": 638256,
+                "sso_id": "f4c4206f-96b4-45fc-9d7e-93122433648a",
+                "personal": {
+                    "first_name": "SDET Employee 2",
+                    "last_name": "",
+                    "barcode": "MKR862",
+                    "email": "sdet-automation+test62-2@mekari.com",
+                    "identity_type": "KTP",
+                    "identity_number": "1949873070",
+                    "expired_date_identity_id": "2021-02-04",
+                    "postal_code": "85082",
+                    "address": "998 Weimann Roads, Koreymouth, CA 79184-8396",
+                    "current_address": "836 Schaefer Mount, South Cira, MS 73824",
+                    "birth_place": "jakarta",
+                    "birth_date": "2000-11-29",
+                    "phone": "7685881206",
+                    "mobile_phone": "2464320116",
+                    "gender": "Female",
+                    "marital_status": "Single",
+                    "blood_type": "B",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-2",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241281,
+                    "job_position": "Manager IT",
+                    "job_level": "Manager",
+                    "employment_status": "Permanent",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2012-03-22",
+                    "length_of_service": "9 Year 11 Month 25 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-02-03 13:48:23",
+                "updated_at": "2022-03-08 12:47:09"
+            },
+            {
+                "user_id": 664330,
+                "sso_id": "706293fa-6260-4ff7-8183-2da4c37b11b9",
+                "personal": {
+                    "first_name": "SDET Employee 4",
+                    "last_name": "",
+                    "barcode": "MKR864",
+                    "email": "sdet-automation+test62-4@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "1991-03-04",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "AB",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-4",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Probation",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2021-03-04",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-03-05 15:18:04",
+                "updated_at": "2022-03-07 16:56:10"
+            },
+            {
+                "user_id": 664335,
+                "sso_id": "80b5c340-7cf7-4f6f-9f78-f08b290a31de",
+                "personal": {
+                    "first_name": "SDET Employee 5",
+                    "last_name": "",
+                    "barcode": "MKR865",
+                    "email": "sdet-automation+test62-5@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "999999",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "1991-03-11",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Married",
+                    "blood_type": "B",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-5",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241282,
+                    "job_position": "Supervisor IT",
+                    "job_level": "Supervisor",
+                    "employment_status": "PKWTT",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2021-03-04",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-03-05 15:23:12",
+                "updated_at": "2022-03-07 17:03:22"
+            },
+            {
+                "user_id": 664338,
+                "sso_id": "000c2929-7348-4355-9c21-4ccc0c045b71",
+                "personal": {
+                    "first_name": "SDET Employee 6",
+                    "last_name": "",
+                    "barcode": "MKR866",
+                    "email": "sdet-automation+test62-6@mekari.com",
+                    "identity_type": "Passport",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "1990-03-05",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Female",
+                    "marital_status": "Married",
+                    "blood_type": "B",
+                    "religion": "Islam",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-6",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241281,
+                    "job_position": "Manager IT",
+                    "job_level": "Manager",
+                    "employment_status": "Magang",
+                    "branch_id": "18617",
+                    "branch": "Branch 2",
+                    "join_date": "2021-03-04",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-03-05 15:26:12",
+                "updated_at": "2022-02-22 15:22:37"
+            },
+            {
+                "user_id": 714258,
+                "sso_id": "d9ec9268-cefc-4d5d-8c89-ebb44e36dfbd",
+                "personal": {
+                    "first_name": "SDET Employee 7",
+                    "last_name": "",
+                    "barcode": "4130904494",
+                    "email": "sdet-automation+test62-7@mekari.com",
+                    "identity_type": "Passport",
+                    "identity_number": "5372585758",
+                    "expired_date_identity_id": "2021-04-30",
+                    "postal_code": "76055",
+                    "address": "Suite 840 Jl. Gajahmada No. 47, Nunukan, KA 59702",
+                    "current_address": "Suite 626 Jl. Jend. Sudirman No. 63, Sintang, SU 37905",
+                    "birth_place": "jakarta",
+                    "birth_date": "2000-11-29",
+                    "phone": "3966582303",
+                    "mobile_phone": "8299861959",
+                    "gender": "Female",
+                    "marital_status": "Single",
+                    "blood_type": "AB",
+                    "religion": "Buddha",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-7",
+                    "company_id": 3620,
+                    "organization_id": "79749",
+                    "organization_name": "GA",
+                    "job_position_id": 241281,
+                    "job_position": "Manager IT",
+                    "job_level": "Manager",
+                    "employment_status": "Permanent",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2001-03-04",
+                    "length_of_service": "21 Year 0 Month 15 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-04-29 15:43:13",
+                "updated_at": "2021-05-03 12:01:58"
+            },
+            {
+                "user_id": 714861,
+                "sso_id": "1f357be8-8ee9-473b-b508-a1a10e9aca87",
+                "personal": {
+                    "first_name": "SDET Employee 8",
+                    "last_name": "",
+                    "barcode": "5172030287",
+                    "email": "sdet-automation+test62-8@mekari.com",
+                    "identity_type": "Passport",
+                    "identity_number": "8544630742",
+                    "expired_date_identity_id": "2021-05-01",
+                    "postal_code": "31759",
+                    "address": "Jl. Hayamwuruk No. 41, Luwu, SR 90439",
+                    "current_address": "Jl. Juanda No. 71, Bolaang Mongondow Utara, KI 03219",
+                    "birth_place": "jakarta",
+                    "birth_date": "2000-11-29",
+                    "phone": "1731977085",
+                    "mobile_phone": "3625867936",
+                    "gender": "Female",
+                    "marital_status": "Single",
+                    "blood_type": "AB",
+                    "religion": "Christian",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-8",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "1995-08-04",
+                    "length_of_service": "26 Year 7 Month 15 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-04-30 14:01:51",
+                "updated_at": "2021-10-07 14:19:13"
+            },
+            {
+                "user_id": 931062,
+                "sso_id": "3332a45f-cf3f-4ce2-a6bd-2eefc08128fd",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee 9",
+                    "barcode": "5248360098",
+                    "email": "sdet-automation+test62-9@mekari.com",
+                    "identity_type": "Passport",
+                    "identity_number": "5780955830",
+                    "expired_date_identity_id": "2021-09-30",
+                    "postal_code": "13175",
+                    "address": "Jl. Gajahmada No. 55, Kendari, MA 04501",
+                    "current_address": "Jl. Gajahmada No. 17, Kepulauan Anambas, ML 10304",
+                    "birth_place": "jakarta",
+                    "birth_date": "2000-11-29",
+                    "phone": "6894671782",
+                    "mobile_phone": "8149579754",
+                    "gender": "Female",
+                    "marital_status": "Married",
+                    "blood_type": "AB",
+                    "religion": "Christian",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-002-9",
+                    "company_id": 3620,
+                    "organization_id": "79749",
+                    "organization_name": "GA",
+                    "job_position_id": 241277,
+                    "job_position": "Manager Sales & Marketing",
+                    "job_level": "Manager",
+                    "employment_status": "Contract",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "1998-07-17",
+                    "length_of_service": "23 Year 8 Month 2 Day",
+                    "grade": "Grade 1",
+                    "class": "",
+                    "approval_line": 571923,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-09-30 14:04:08",
+                "updated_at": "2021-10-05 16:19:46"
+            },
+            {
+                "user_id": 939211,
+                "sso_id": "3939663a-b783-465c-97b9-08113834135d",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee 3",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-10@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-02-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-011",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "16653",
+                    "branch": "Branch 1",
+                    "join_date": "2021-01-04",
+                    "length_of_service": "1 Year 2 Month 15 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 85,
+                    "cost_center_name": "COST CENTER DONT DELETE",
+                    "cost_center_category_id": 1,
+                    "cost_center_category_name": "Direct"
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2021-10-07 15:33:18",
+                "updated_at": "2022-03-01 16:46:26"
+            },
+            {
+                "user_id": 1064349,
+                "sso_id": "24ad6fda-8cb1-4b2d-9fd8-5df46b1a528c",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift A",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-11@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-06 11:38:39",
+                "updated_at": "2022-01-06 11:39:25"
+            },
+            {
+                "user_id": 1064355,
+                "sso_id": "ca1e830b-8b8a-40cb-b7de-b7dd3767c995",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift B",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-12@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-2",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-06 11:43:29",
+                "updated_at": "2022-01-06 11:44:05"
+            },
+            {
+                "user_id": 1064364,
+                "sso_id": "86511830-7d35-4a48-896d-d1626a428beb",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift C",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-13@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-3",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-06 11:47:18",
+                "updated_at": "2022-01-06 11:47:59"
+            },
+            {
+                "user_id": 1064371,
+                "sso_id": "e92d46cf-3816-4d1d-b8b1-3a9f87da5ad7",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift D",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-14@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-4",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2022-01-06",
+                    "length_of_service": "0 Year 2 Month 13 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-06 11:53:05",
+                "updated_at": "2022-01-06 11:59:51"
+            },
+            {
+                "user_id": 1064377,
+                "sso_id": "c9f314bb-b966-47cb-b2bb-3f3b53edc0ac",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift E",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-15@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-5",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": 571919,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-06 11:58:53",
+                "updated_at": "2022-01-06 11:59:35"
+            },
+            {
+                "user_id": 1081260,
+                "sso_id": "823fb823-4649-4eb6-a666-06320ec4b34c",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift F",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-16@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2010-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-6",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2020-01-01",
+                    "length_of_service": "2 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": null,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-17 12:20:51",
+                "updated_at": "2022-01-17 12:24:18"
+            },
+            {
+                "user_id": 1081355,
+                "sso_id": "dea0999b-87e8-493a-8153-6ed73b2c3c32",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift G",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-17@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2010-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-7",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2021-01-01",
+                    "length_of_service": "1 Year 2 Month 18 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": null,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-17 13:04:05",
+                "updated_at": "2022-01-17 13:04:58"
+            },
+            {
+                "user_id": 1081365,
+                "sso_id": "0f2e0120-8cf8-46c4-a524-e805cf7e3249",
+                "personal": {
+                    "first_name": "SDET",
+                    "last_name": "Employee Shift H",
+                    "barcode": "",
+                    "email": "sdet-automation+test62-18@mekari.com",
+                    "identity_type": "",
+                    "identity_number": "",
+                    "expired_date_identity_id": "",
+                    "postal_code": "",
+                    "address": "",
+                    "current_address": "",
+                    "birth_place": "",
+                    "birth_date": "2000-01-01",
+                    "phone": "",
+                    "mobile_phone": "",
+                    "gender": "Male",
+                    "marital_status": "Single",
+                    "blood_type": "",
+                    "religion": "Catholic",
+                    "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+                },
+                "family": {
+                    "members": [],
+                    "emergency_contacts": []
+                },
+                "education": {
+                    "formal_education_history": [],
+                    "informal_education_history": []
+                },
+                "employment": {
+                    "employee_id": "SDET-003-8",
+                    "company_id": 3620,
+                    "organization_id": "79753",
+                    "organization_name": "IT Division",
+                    "job_position_id": 241283,
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "employment_status": "Permanent",
+                    "branch_id": "0",
+                    "branch": "Pusat",
+                    "join_date": "2022-01-17",
+                    "length_of_service": "0 Year 2 Month 2 Day",
+                    "grade": "",
+                    "class": "",
+                    "approval_line": null,
+                    "status": "Active",
+                    "resign_date": "",
+                    "working_experiences": [],
+                    "nationality_code": ""
+                },
+                "payroll_info": {
+                    "cost_center_id": 0,
+                    "cost_center_name": "",
+                    "cost_center_category_id": null,
+                    "cost_center_category_name": ""
+                },
+                "custom_field": [
+                    {
+                        "field_name": "level",
+                        "value": ""
+                    }
+                ],
+                "access_role": {
+                    "id": 2,
+                    "name": "Employee",
+                    "role_id": 2,
+                    "role_name": "Employee",
+                    "role_type": "default"
+                },
+                "created_at": "2022-01-17 13:16:37",
+                "updated_at": "2022-01-17 13:31:44"
+            }
+        ],
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "https://data-api.talenta.co/v2/employee?limit=20&page=1",
+            "from": 1,
+            "last_page": 3,
+            "last_page_url": "https://data-api.talenta.co/v2/employee?limit=20&page=3",
+            "next_page_url": "https://data-api.talenta.co/v2/employee?limit=20&page=2",
+            "path": "https://data-api.talenta.co/v2/employee?limit=20",
+            "per_page": 20,
+            "prev_page_url": "",
+            "to": 20,
+            "total": 57
+        }
+    }
+}

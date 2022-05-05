@@ -1,0 +1,19 @@
+{
+    "message": "Successfully create employee informal education data",
+    "data": {
+        "informal_education": {
+            "id": 3173,
+            "reference_id": 9,
+            "name": "TDA test api",
+            "held_by_institution_name": "company tedt",
+            "start_date": "2021-11-30",
+            "end_date": "2021-11-30",
+            "duration_type": 1,
+            "duration": 1,
+            "fee": "1000",
+            "description": "test api",
+            "certification": true,
+            "filename": "https://development-test2.s3.ap-southeast-1.amazonaws.com/myinfo/training/43yzFGBnHNJc_Vg8mupvhaKE6QQgjhVj.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDAx%2BM3MYDrHtHMvLliLDAUKAPEvmZyHm7uLv%2Bo%2B4GoSwBf0uDj4BYWk6irj07A4kRamVQDIBD5QVYmCuW0rmEbU6FizE%2BAidiLko6pmvs%2B0lZ4gcCzWpRSJPYNuOjDrhJNsn3ZAN1Q5W%2B%2BY0GJkpGSZrUUnjx9Wt%2F9lTdoHMdq%2BG2VxGERvJKnIonQKQrIDVrxgkexMYyKEf9X7nI0amh2cz984awuHd0z6Wne92vQYPiVDd7AN6OfzFw5pjTtoOaFg6kWlpwFuGpYeaUCigqpOoRSj8kKOPBjIt%2FTW%2Bsy75tewQPIV42UfVQbuD2wSwRO%2B3YeRL%2FiS9NxqJ5wrGiTIR8ahRtHie&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3A7QLOC3OGII3POX%2F20220120%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20220120T023542Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=025d23b54ee50580eb6bc68074db3ab585a9e34a798bd3891e058e10719b80b5"
+        }
+    }
+}

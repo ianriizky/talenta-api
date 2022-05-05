@@ -1,0 +1,124 @@
+{
+    "message": "Get employee info successfully",
+    "data": {
+        "employee": {
+            "user_id": 938081,
+            "sso_id": "fa43eae4-ef34-4c65-9a8d-35cd93e50938",
+            "personal": {
+                "first_name": "Test",
+                "last_name": "TDA",
+                "barcode": "TDA-QK",
+                "email": "katniss@getnada.com",
+                "identity_type": "KTP",
+                "identity_number": "8765432125555",
+                "expired_date_identity_id": "",
+                "postal_code": "17413",
+                "address": "District 12",
+                "current_address": "District 12",
+                "birth_place": "District 12",
+                "birth_date": "2000-01-12",
+                "phone": "02183384848",
+                "mobile_phone": "081293939393",
+                "gender": "Male",
+                "marital_status": "Single",
+                "blood_type": "A",
+                "religion": "Islam",
+                "avatar": "https://talenta.s3-ap-southeast-1.amazonaws.com/avatar/blank.jpg"
+            },
+            "family": {
+                "members": [
+                    {
+                        "id": 17360,
+                        "full_name": "Primrose Everdeen",
+                        "relationship": "Sibling",
+                        "relationship_id": 2,
+                        "birth_date": "2021-11-04",
+                        "no_ktp": "3004032802910002",
+                        "marital_status": "",
+                        "gender": "Female",
+                        "job": "",
+                        "religion": "Islam",
+                        "is_deleted": 0,
+                        "created_at": "2021-03-16 09:20:25",
+                        "updated_at": "2021-08-06 10:54:34"
+                    },
+                    {
+                        "id": 17361,
+                        "full_name": "Peeta Mellark",
+                        "relationship": "Spouse",
+                        "relationship_id": 3,
+                        "birth_date": "1988-08-31",
+                        "no_ktp": "123232323",
+                        "marital_status": "Married",
+                        "gender": "Male",
+                        "job": "",
+                        "religion": "",
+                        "is_deleted": 0,
+                        "created_at": "2021-03-16 09:27:03",
+                        "updated_at": "2021-03-16 09:27:03"
+                    },
+                    {
+                        "id": 17507,
+                        "full_name": "Patricia Kenivoaz",
+                        "relationship": "Child",
+                        "relationship_id": 4,
+                        "birth_date": "2021-08-05",
+                        "no_ktp": "",
+                        "marital_status": "Single",
+                        "gender": "Male",
+                        "job": "",
+                        "religion": "Catholic",
+                        "is_deleted": 0,
+                        "created_at": "2021-08-06 10:54:34",
+                        "updated_at": "2021-08-06 10:54:34"
+                    }
+                ],
+                "emergency_contacts": []
+            },
+            "education": {
+                "formal_education_history": [],
+                "informal_education_history": []
+            },
+            "employment": {
+                "employee_id": "TEST-TDA",
+                "company_id": 3053,
+                "organization_id": 20385,
+                "organization_name": "BOD",
+                "job_position_id": 55411,
+                "job_position": "Manager Finance & Accounting",
+                "job_level": "Manager",
+                "employment_status": "Permanent",
+                "branch_id": 2513,
+                "branch": "Branch 1",
+                "join_date": "2020-12-12",
+                "length_of_service": "1 Year 1 Month 3 Day",
+                "grade": "Grade 1",
+                "class": "Class A",
+                "approval_line": 935853,
+                "status": "Active",
+                "resign_date": "",
+                "working_experiences": [],
+                "nationality_code": "DNK"
+            },
+            "payroll_info": {
+                "cost_center_id": 0,
+                "cost_center_name": "",
+                "cost_center_category_id": null,
+                "cost_center_category_name": ""
+            },
+            "custom_field": [
+                {
+                    "field_name": "level",
+                    "value": ""
+                }
+            ],
+            "access_role": {
+                "id": 2,
+                "name": "Employee",
+                "role_id": 2,
+                "role_name": "Employee",
+                "role_type": "default"
+            }
+        }
+    }
+}
