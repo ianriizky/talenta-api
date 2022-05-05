@@ -6,6 +6,7 @@ use Ianriizky\TalentaApi\Support\Facades\Http;
 use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\Response;
+use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Illuminate\Testing\Assert;
@@ -27,7 +28,7 @@ class ApiTestCase extends TestCase
 
         $this->factory = Http::getFacadeRoot();
 
-        $this->factory->macro('responseFromJsonPath', function (string $jsonPath, $status = 200, $headers = []) {
+        $this->factory->macro('responseFromJsonPath', function (string $jsonPath, $status = HttpResponse::HTTP_OK, $headers = []) {
             /** @var \Ianriizky\TalentaApi\Http\Client\Factory $factory */
             $factory = $this;
             $body = json_decode(ApiTestCase::getJsonFromResponsesPath($jsonPath), true);

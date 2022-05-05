@@ -6,6 +6,8 @@ use Illuminate\Http\Client\Response;
 
 /**
  * @property \Ianriizky\TalentaApi\Http\Client\PendingRequest $request
+ *
+ * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1#f70ad8ab-3921-49d1-bdb0-a3195c5bdc02
  */
 trait Employee
 {
