@@ -1,0 +1,7 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "user_id param should be positive integer",
+        "limit must be an integer between 1 - 100"
+    ]
+}

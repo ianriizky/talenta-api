@@ -1,0 +1,54 @@
+{
+    "message": "Get cost center success",
+    "data": {
+        "cost_center": [
+            {
+                "codename": "567 TDA",
+                "payroll_component": [
+                    {
+                        "name": "Basic salary",
+                        "amount": 0,
+                        "gl_account": "100-Basic Salary",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Basic salary",
+                        "amount": 6000000,
+                        "gl_account": "100-Basic Salary",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tunjangan Makan",
+                        "amount": 0,
+                        "gl_account": "200-Tunjangan Makan",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tunjangan Makan",
+                        "amount": 0,
+                        "gl_account": "200-Tunjangan Makan",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Take home pay",
+                        "amount": 0,
+                        "gl_account": "600-Take home pay",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Take home pay",
+                        "amount": 800000,
+                        "gl_account": "600-Take home pay",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    }
+                ]
+            }
+        ]
+    }
+}

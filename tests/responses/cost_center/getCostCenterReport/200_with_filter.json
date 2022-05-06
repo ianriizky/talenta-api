@@ -1,0 +1,735 @@
+{
+    "message": "Get cost center success",
+    "data": {
+        "cost_center": [
+            {
+                "id": 71,
+                "codename": "COST CENTER DONT DELETE",
+                "payment_schedule_id": 2475,
+                "payment_schedule_name": "JADWALGAJIANPERTAMA",
+                "payroll_component": [
+                    {
+                        "name": "Basic salary",
+                        "amount": 10000000,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Basic salary",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Allowance once",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Allowance once",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "THR",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "THR",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tax allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tax allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tax allowance resign",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Tax allowance resign",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Reimbursement",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Reimbursement",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Time Off Compensation Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Time Off Compensation Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "DPLK allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "DPLK allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Overtime",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Overtime",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Bonus",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Bonus",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Merit Pay",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Merit Pay",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Severance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Severance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Compensation Pay",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Compensation Pay",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 Paid",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 Paid",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Back Pay Gaji",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Back Pay Gaji",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Back Pay Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Back Pay Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Ex-Employee Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Ex-Employee Allowance",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Take home pay",
+                        "amount": 5745488,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Take home pay",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 DTP",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 DTP",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "ABSENCE",
+                        "amount": 4193548,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "ABSENCE",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Deduction once",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Deduction once",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Time Off Compensation Deduction",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Time Off Compensation Deduction",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "DPLK",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "DPLK",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21",
+                        "amount": 60965,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 26",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 26",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Employee",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Loan",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Loan",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "THR Paid",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "THR Paid",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Family",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Family",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 resign",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 resign",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Reimbursement",
+                        "amount": 2113761,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "Reimbursement",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 26 benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 26 benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 resign benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 resign benefit",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 other",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "PPh 21 other",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JHT Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JP Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "BPJS K Company",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JKK",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JKK",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JKM",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "Direct",
+                        "type": "Debit"
+                    },
+                    {
+                        "name": "JKM",
+                        "amount": 0,
+                        "gl_account_id": 985,
+                        "gl_account": "GL-DIRECT-1",
+                        "gl_account_type": "In-direct",
+                        "type": "Debit"
+                    }
+                ]
+            }
+        ]
+    }
+}
