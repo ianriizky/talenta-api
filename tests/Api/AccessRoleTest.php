@@ -9,7 +9,7 @@ use Illuminate\Http\Client\Response;
 use Illuminate\Http\Response as HttpResponse;
 
 /**
- * @see \Ianriizky\TalentaApi\Services\Api\Employee
+ * @see \Ianriizky\TalentaApi\Services\Api\AccessRole
  */
 class AccessRoleTest extends ApiTestCase
 {
