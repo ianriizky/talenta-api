@@ -1,0 +1,12 @@
+{
+    "message": "get custom field successfully",
+    "data": {
+        "custom_fields": [
+            {
+                "id": "4-3093",
+                "name": "level"
+            }
+        ],
+        "total": 1
+    }
+}

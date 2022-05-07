@@ -1,0 +1,40 @@
+{
+    "message": "get job position successfully",
+    "data": {
+        "job_position": [
+            {
+                "id": 21352,
+                "name": "Manager HRD & GA",
+                "level": 2,
+                "description": "",
+                "parent_job_id": 21351,
+                "branch_id": 0
+            },
+            {
+                "id": 21356,
+                "name": "Manager Finance & Accounting",
+                "level": 2,
+                "description": "",
+                "parent_job_id": 21351,
+                "branch_id": 0
+            },
+            {
+                "id": 21361,
+                "name": "Manager Sales & Marketing",
+                "level": 2,
+                "description": "",
+                "parent_job_id": 21351,
+                "branch_id": 0
+            },
+            {
+                "id": 21365,
+                "name": "Manager IT",
+                "level": 2,
+                "description": "",
+                "parent_job_id": 21351,
+                "branch_id": 0
+            }
+        ],
+        "total": 4
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "message": "get organizations successfully",
+    "data": {
+        "organizations": [
+            {
+                "id": 79746,
+                "name": "BOD",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79747,
+                "name": "HRD & GA",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79748,
+                "name": "HRD",
+                "parent_organization_id": 79747,
+                "branch_id": 0
+            }
+        ],
+        "total": 11,
+        "pagination": {
+            "current_page": 1,
+            "from": 1,
+            "last_page": 4,
+            "last_page_url": "https://data-api.talenta.co/v1/v2/company/3620/organization?limit=3&page=4&per-page=3",
+            "next_page_url": "https://data-api.talenta.co/v1/v2/company/3620/organization?limit=3&page=2&per-page=3",
+            "path": "https://data-api.talenta.co/v1/v2/company/3620/organization",
+            "per_page": 3,
+            "to": 3,
+            "total": 11
+        }
+    }
+}

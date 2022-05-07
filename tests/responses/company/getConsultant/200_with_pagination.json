@@ -1,0 +1,100 @@
+{
+    "message": "get consultants successfully",
+    "data": {
+        "consultants": [
+            {
+                "id": 340,
+                "user_id": 39429,
+                "name": "Consultant Super Admin",
+                "access_role_id": 0,
+                "is_superadmin": 1,
+                "expired_date": ""
+            },
+            {
+                "id": 362,
+                "user_id": 8002,
+                "name": "Consultant Admin",
+                "access_role_id": 0,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 384,
+                "user_id": 39608,
+                "name": "Consultant Admin",
+                "access_role_id": 0,
+                "is_superadmin": 1,
+                "expired_date": ""
+            },
+            {
+                "id": 387,
+                "user_id": 57912,
+                "name": "Consultant Admin",
+                "access_role_id": 123,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 393,
+                "user_id": 936011,
+                "name": "Consultant Admin",
+                "access_role_id": 1414,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 396,
+                "user_id": 73122,
+                "name": "Consultant Admin",
+                "access_role_id": 0,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 398,
+                "user_id": 73270,
+                "name": "Consultant Admin",
+                "access_role_id": 0,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 415,
+                "user_id": 939620,
+                "name": "Consultant Admin",
+                "access_role_id": 0,
+                "is_superadmin": 0,
+                "expired_date": ""
+            },
+            {
+                "id": 420,
+                "user_id": 940225,
+                "name": "Consultant Super Admin",
+                "access_role_id": 0,
+                "is_superadmin": 1,
+                "expired_date": ""
+            },
+            {
+                "id": 422,
+                "user_id": 36656,
+                "name": "Consultant Super Admin",
+                "access_role_id": 0,
+                "is_superadmin": 1,
+                "expired_date": "2021-06-12 17:46:04"
+            }
+        ],
+        "total": 17,
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "/v2/company/870/consultant?limit=10&page=1&per-page=10",
+            "from": 1,
+            "last_page": 2,
+            "last_page_url": "/v2/company/870/consultant?limit=10&page=2&per-page=10",
+            "next_page_url": "/v2/company/870/consultant?limit=10&page=2&per-page=10",
+            "path": "/v2/company/870/consultant",
+            "per_page": 10,
+            "to": 10,
+            "total": 17
+        }
+    }
+}

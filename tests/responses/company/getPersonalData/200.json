@@ -1,0 +1,104 @@
+{
+    "message": "get personal data successfully",
+    "data": {
+        "personal_data": [
+            {
+                "id": 51,
+                "name": "Bank Account"
+            },
+            {
+                "id": 52,
+                "name": "Bank Account Holder"
+            },
+            {
+                "id": 50,
+                "name": "Bank Name"
+            },
+            {
+                "id": 6,
+                "name": "Birth Date"
+            },
+            {
+                "id": 14,
+                "name": "BPJS Kesehatan"
+            },
+            {
+                "id": 13,
+                "name": "BPJS Ketenagakerjaan"
+            },
+            {
+                "id": 2,
+                "name": "Branch"
+            },
+            {
+                "id": 20,
+                "name": "Class"
+            },
+            {
+                "id": 5,
+                "name": "Email"
+            },
+            {
+                "id": 12,
+                "name": "Employee Tax Status"
+            },
+            {
+                "id": 1,
+                "name": "Employment Status"
+            },
+            {
+                "id": 4,
+                "name": "End Employment Status Date"
+            },
+            {
+                "id": 7,
+                "name": "Gender"
+            },
+            {
+                "id": 19,
+                "name": "Grade"
+            },
+            {
+                "id": 0,
+                "name": "Job Level"
+            },
+            {
+                "id": 3,
+                "name": "Join Date"
+            },
+            {
+                "id": 18,
+                "name": "KTP (No Identity)"
+            },
+            {
+                "id": 16,
+                "name": "Length of Service"
+            },
+            {
+                "id": 8,
+                "name": "Marital Status"
+            },
+            {
+                "id": 15,
+                "name": "NPWP"
+            },
+            {
+                "id": 10,
+                "name": "PTKP Status"
+            },
+            {
+                "id": 9,
+                "name": "Religion"
+            },
+            {
+                "id": 17,
+                "name": "Resign Date"
+            },
+            {
+                "id": 11,
+                "name": "Tax Configuration"
+            }
+        ],
+        "total": 24
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "success",
+    "data": {
+        "employment_statuses": [
+            {
+                "id": 1,
+                "name": "Permanent"
+            },
+            {
+                "id": 2,
+                "name": "Contract"
+            }
+        ],
+        "total": 6,
+        "pagination": {
+            "current_page": 1,
+            "from": 1,
+            "last_page": 3,
+            "last_page_url": "https://data-api.talenta.co/v1/v2/company/3620/employment-status?limit=2&page=3&per-page=2",
+            "next_page_url": "https://data-api.talenta.co/v1/v2/company/3620/employment-status?limit=2&page=2&per-page=2",
+            "path": "https://data-api.talenta.co/v1/v2/company/3620/employment-status",
+            "per_page": 2,
+            "to": 2,
+            "total": 6
+        }
+    }
+}

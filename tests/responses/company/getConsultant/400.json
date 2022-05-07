@@ -1,0 +1,7 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "page must be positive integer",
+        "limit must be an integer between 1 - 100"
+    ]
+}

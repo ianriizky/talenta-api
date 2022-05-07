@@ -1,0 +1,7 @@
+{
+    "message": "job position not found",
+    "data": {
+        "job_position": null,
+        "total": 0
+    }
+}

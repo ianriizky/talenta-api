@@ -1,0 +1,9 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "branch_id param must be a positive integer or 0",
+        "parent_id param must be a positive integer or 0",
+        "page param must be an integer and greater than 0",
+        "limit param must be an integer and greater than 0"
+    ]
+}

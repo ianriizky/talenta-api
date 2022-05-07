@@ -1,0 +1,10 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "query must be 3 characters or more",
+        "roleType must be either 'default' or 'custom'",
+        "role must be one of 'super admin', 'employee', 'admin', 'finance'",
+        "page must be positive integer",
+        "limit must be an integer between 1 - 100"
+    ]
+}

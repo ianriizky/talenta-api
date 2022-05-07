@@ -12,6 +12,19 @@ use Illuminate\Support\Facades\Facade;
  * @see \Ianriizky\TalentaApi\Services\Api\AccessRole
  * @method static \Illuminate\Http\Client\Response getAccessRoleByUserID(string $super_admin_id, array|string|null $query = null) Create "/access-role/:super_admin_id" GET request to the Talenta api.
  *
+ * @see \Ianriizky\TalentaApi\Services\Api\Company
+ * @method static \Illuminate\Http\Client\Response getBranch(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/branch" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getOrganization(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/organization" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getJobLevel(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/job-level" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getEmploymentStatus(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/employment-status" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getJobPosition(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/job-position" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getPersonalData(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/personal" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getCustomField(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/custom-field" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getConsultant(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/consultant" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getAccessRole(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/access-role" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getBankList(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/bank-list" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getBreakData(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/break" GET request to the Talenta api.
+ *
  * @see \Ianriizky\TalentaApi\Services\Api\CostCenter
  * @method static \Illuminate\Http\Client\Response getCostCenterReport(array|string|null $query = null) Create "/cost-center" GET request to the Talenta api.
  * @method static \Illuminate\Http\Client\Response getCompanyCostCenter(string $cost_center_id, array|string|null $query = null) Create "/company/:cost_center_id/cost-center" GET request to the Talenta api.

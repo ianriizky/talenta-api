@@ -1,0 +1,7 @@
+{
+    "message": "organization not found",
+    "data": {
+        "organizations": null,
+        "total": 0
+    }
+}

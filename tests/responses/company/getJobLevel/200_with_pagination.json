@@ -1,0 +1,29 @@
+{
+    "message": "get job levels successfully",
+    "data": {
+        "job_levels": [
+            {
+                "id": 35867,
+                "title": "CEO",
+                "level": 0
+            },
+            {
+                "id": 35868,
+                "title": "Manager",
+                "level": 0
+            }
+        ],
+        "total": 4,
+        "pagination": {
+            "current_page": 1,
+            "from": 1,
+            "last_page": 2,
+            "last_page_url": "https://data-api.talenta.co/v1/v2/company/3620/job-level?limit=2&page=2&per-page=2",
+            "next_page_url": "https://data-api.talenta.co/v1/v2/company/3620/job-level?limit=2&page=2&per-page=2",
+            "path": "https://data-api.talenta.co/v1/v2/company/3620/job-level",
+            "per_page": 2,
+            "to": 2,
+            "total": 4
+        }
+    }
+}

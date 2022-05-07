@@ -1,0 +1,28 @@
+{
+    "message": "get job levels successfully",
+    "data": {
+        "job_levels": [
+            {
+                "id": 35867,
+                "title": "CEO",
+                "level": 0
+            },
+            {
+                "id": 35868,
+                "title": "Manager",
+                "level": 0
+            },
+            {
+                "id": 35869,
+                "title": "Supervisor",
+                "level": 0
+            },
+            {
+                "id": 35871,
+                "title": "Staff",
+                "level": 0
+            }
+        ],
+        "total": 4
+    }
+}

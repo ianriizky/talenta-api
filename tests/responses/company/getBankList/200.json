@@ -1,0 +1,528 @@
+{
+    "message": "get bank list data successfully",
+    "data": {
+        "bank_list": [
+            {
+                "id": 1,
+                "code": "bca",
+                "name": "BCA"
+            },
+            {
+                "id": 2,
+                "code": "mandiri",
+                "name": "Mandiri"
+            },
+            {
+                "id": 3,
+                "code": "bri",
+                "name": "BRI"
+            },
+            {
+                "id": 4,
+                "code": "cimb",
+                "name": "CIMB"
+            },
+            {
+                "id": 5,
+                "code": "commonwealth",
+                "name": "Commonwealth"
+            },
+            {
+                "id": 6,
+                "code": "bni",
+                "name": "BNI"
+            },
+            {
+                "id": 7,
+                "code": "danamon",
+                "name": "Danamon"
+            },
+            {
+                "id": 8,
+                "code": "panin",
+                "name": "Panin"
+            },
+            {
+                "id": 9,
+                "code": "permata",
+                "name": "Bank Permata"
+            },
+            {
+                "id": 10,
+                "code": "maybank",
+                "name": "BII-Maybank"
+            },
+            {
+                "id": 11,
+                "code": "btn",
+                "name": "BTN"
+            },
+            {
+                "id": 12,
+                "code": "ocbc",
+                "name": "OCBC"
+            },
+            {
+                "id": 13,
+                "code": "mega_tbk",
+                "name": "Mega"
+            },
+            {
+                "id": 14,
+                "code": "uob",
+                "name": "UOB Indonesia"
+            },
+            {
+                "id": 15,
+                "code": "sinarmas",
+                "name": "Bank Sinarmas"
+            },
+            {
+                "id": 16,
+                "code": "mayapada",
+                "name": "Bank Mayapada"
+            },
+            {
+                "id": 17,
+                "code": "anz",
+                "name": "ANZ"
+            },
+            {
+                "id": 18,
+                "code": "",
+                "name": "HCBC"
+            },
+            {
+                "id": 19,
+                "code": "hana",
+                "name": "Hana Bank"
+            },
+            {
+                "id": 20,
+                "code": "dki",
+                "name": "Bank DKI"
+            },
+            {
+                "id": 21,
+                "code": "dbs",
+                "name": "DBS Bank"
+            },
+            {
+                "id": 22,
+                "code": "sumut",
+                "name": "Bank Sumut"
+            },
+            {
+                "id": 23,
+                "code": "bjb",
+                "name": "Bank BJB"
+            },
+            {
+                "id": 24,
+                "code": "bukopin",
+                "name": "Bank Bukopin"
+            },
+            {
+                "id": 25,
+                "code": "hsbc",
+                "name": "HSBC"
+            },
+            {
+                "id": 26,
+                "code": "citibank",
+                "name": "Citibank"
+            },
+            {
+                "id": 27,
+                "code": "mandiri_syar",
+                "name": "Bank Mandiri Syariah"
+            },
+            {
+                "id": 28,
+                "code": "artha",
+                "name": "Bank Artha Graha"
+            },
+            {
+                "id": 29,
+                "code": "bri_syar",
+                "name": "BRI Syariah"
+            },
+            {
+                "id": 30,
+                "code": "bni_syar",
+                "name": "Bank BNI Syariah"
+            },
+            {
+                "id": 31,
+                "code": "muamalat",
+                "name": "Bank Muamalat"
+            },
+            {
+                "id": 32,
+                "code": "bca_syar",
+                "name": "Bank BCA Syariah"
+            },
+            {
+                "id": 33,
+                "code": "kaltim",
+                "name": "BPD Kaltim"
+            },
+            {
+                "id": 34,
+                "code": "sumsel_babel",
+                "name": "Bank Sumsel Babel"
+            },
+            {
+                "id": 35,
+                "code": "mestika",
+                "name": "Bank Mestika"
+            },
+            {
+                "id": 36,
+                "code": "permata_syar",
+                "name": "Bank Permata Syariah"
+            },
+            {
+                "id": 37,
+                "code": "cimb_syar",
+                "name": "Bank CIMB Niaga Syariah"
+            },
+            {
+                "id": 38,
+                "code": "btpn",
+                "name": "BTPN"
+            },
+            {
+                "id": 39,
+                "code": "bukopin_syar",
+                "name": "Bank Bukopin Syariah"
+            },
+            {
+                "id": 40,
+                "code": "woori",
+                "name": "Bank Woori Saudara"
+            },
+            {
+                "id": 41,
+                "code": "nobu",
+                "name": "Bank National Nobu"
+            },
+            {
+                "id": 42,
+                "code": "mnc",
+                "name": "MNC Bank"
+            },
+            {
+                "id": 43,
+                "code": "ganesha",
+                "name": "Bank Ganesha"
+            },
+            {
+                "id": 44,
+                "code": "shinhan",
+                "name": "Shinhan Bank"
+            },
+            {
+                "id": 45,
+                "code": "permata",
+                "name": "Bank Permata Lestari"
+            },
+            {
+                "id": 46,
+                "code": "",
+                "name": "BPD Yogya"
+            },
+            {
+                "id": 47,
+                "code": "amar",
+                "name": "Amar Bank"
+            },
+            {
+                "id": 48,
+                "code": "jatim",
+                "name": "Bank Jatim"
+            },
+            {
+                "id": 49,
+                "code": "ccb",
+                "name": "CCB Indonesia"
+            },
+            {
+                "id": 50,
+                "code": "victoria",
+                "name": "Bank Victoria"
+            },
+            {
+                "id": 51,
+                "code": "sulut",
+                "name": "Bank Sulutgo"
+            },
+            {
+                "id": 52,
+                "code": "bjb_syar",
+                "name": "BJB Syariah"
+            },
+            {
+                "id": 53,
+                "code": "",
+                "name": "Kasikorn Bank"
+            },
+            {
+                "id": 54,
+                "code": "",
+                "name": "Affin Bank Berhad"
+            },
+            {
+                "id": 55,
+                "code": "",
+                "name": "Alliance Bank Malaysia Berhad"
+            },
+            {
+                "id": 56,
+                "code": "",
+                "name": "AmBank (M) Berhad"
+            },
+            {
+                "id": 57,
+                "code": "",
+                "name": "CIMB Bank Berhad"
+            },
+            {
+                "id": 58,
+                "code": "",
+                "name": "Hong Leong Bank Berhad"
+            },
+            {
+                "id": 59,
+                "code": "",
+                "name": "Malayan Banking Berhad"
+            },
+            {
+                "id": 60,
+                "code": "",
+                "name": "Public Bank Berhad"
+            },
+            {
+                "id": 61,
+                "code": "",
+                "name": "RHB Bank Berhad"
+            },
+            {
+                "id": 62,
+                "code": "",
+                "name": "RIB France"
+            },
+            {
+                "id": 63,
+                "code": "",
+                "name": "BPD Jabar"
+            },
+            {
+                "id": 64,
+                "code": "jateng",
+                "name": "Bank Jateng"
+            },
+            {
+                "id": 65,
+                "code": "papua",
+                "name": "Bank Papua"
+            },
+            {
+                "id": 66,
+                "code": "bnp",
+                "name": "Bank Nusantara Parahyangan"
+            },
+            {
+                "id": 67,
+                "code": "",
+                "name": "MUFG Bank"
+            },
+            {
+                "id": 68,
+                "code": "",
+                "name": "Bank Simpanan Nasional"
+            },
+            {
+                "id": 69,
+                "code": "stanchard",
+                "name": "Standard Chartered"
+            },
+            {
+                "id": 70,
+                "code": "china",
+                "name": "Bank of China"
+            },
+            {
+                "id": 71,
+                "code": "capital",
+                "name": "Bank Capital"
+            },
+            {
+                "id": 72,
+                "code": "",
+                "name": "State Bank of India"
+            },
+            {
+                "id": 73,
+                "code": "mayora",
+                "name": "Bank Mayora"
+            },
+            {
+                "id": 74,
+                "code": "riau",
+                "name": "Bank Riau Kepri"
+            },
+            {
+                "id": 75,
+                "code": "bali",
+                "name": "Bank Pembangunan Daerah Bali"
+            },
+            {
+                "id": 76,
+                "code": "",
+                "name": "Bank Kaltimtara"
+            },
+            {
+                "id": 77,
+                "code": "",
+                "name": "Bank NTB Syariah"
+            },
+            {
+                "id": 78,
+                "code": "btn_syar",
+                "name": "BTN Syariah"
+            },
+            {
+                "id": 79,
+                "code": "",
+                "name": "HDFC Bank"
+            },
+            {
+                "id": 80,
+                "code": "",
+                "name": "ICICI Bank"
+            },
+            {
+                "id": 81,
+                "code": "nagari",
+                "name": "Bank Nagari"
+            },
+            {
+                "id": 82,
+                "code": "sbi",
+                "name": "Bank SBI Indonesia"
+            },
+            {
+                "id": 83,
+                "code": "maspion",
+                "name": "Bank Maspion"
+            },
+            {
+                "id": 84,
+                "code": "",
+                "name": "Bank SMBC"
+            },
+            {
+                "id": 85,
+                "code": "bumi_artha",
+                "name": "Bank Bumi Arta"
+            },
+            {
+                "id": 86,
+                "code": "",
+                "name": "Bank Islam"
+            },
+            {
+                "id": 87,
+                "code": "agroniaga",
+                "name": "Bank BRI Agro"
+            },
+            {
+                "id": 88,
+                "code": "ina_perdana",
+                "name": "Bank Ina Perdana"
+            },
+            {
+                "id": 89,
+                "code": "",
+                "name": "BSI"
+            },
+            {
+                "id": 90,
+                "code": "",
+                "name": "BKK Jateng"
+            },
+            {
+                "id": 91,
+                "code": "",
+                "name": "BPD Sumatera"
+            },
+            {
+                "id": 92,
+                "code": "yudha_bhakti",
+                "name": "Bank Neo Commerce"
+            },
+            {
+                "id": 93,
+                "code": "bnp_paribas",
+                "name": "BNP Paribas"
+            },
+            {
+                "id": 94,
+                "code": "jago",
+                "name": "Bank Jago"
+            },
+            {
+                "id": 95,
+                "code": "jtrust",
+                "name": "Bank J Trust"
+            },
+            {
+                "id": 96,
+                "code": "ok",
+                "name": "Ok Bank"
+            },
+            {
+                "id": 97,
+                "code": "icbc",
+                "name": "Bank ICBC"
+            },
+            {
+                "id": 98,
+                "code": "",
+                "name": "BPI DEBIT MASTERCARD"
+            },
+            {
+                "id": 99,
+                "code": "",
+                "name": "PHILIPPINE NATIONAL BANK (PNB)"
+            },
+            {
+                "id": 100,
+                "code": "",
+                "name": "BANK OF THE PHILIPPINE ISLANDS"
+            },
+            {
+                "id": 101,
+                "code": "kalbar",
+                "name": "Bank Kalbar (BPD Kalimantan Barat)"
+            },
+            {
+                "id": 102,
+                "code": "sulteng",
+                "name": "Bank Sulteng"
+            },
+            {
+                "id": 103,
+                "code": "",
+                "name": "BPR Lestari"
+            },
+            {
+                "id": 104,
+                "code": "ntt",
+                "name": "Bank NTT"
+            }
+        ],
+        "total": 104
+    }
+}

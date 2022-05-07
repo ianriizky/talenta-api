@@ -1,0 +1,32 @@
+{
+    "message": "get branches successfully",
+    "data": {
+        "branches": [
+            {
+                "id": 16653,
+                "name": "Branch 1",
+                "parent_branch_id": 0,
+                "regency_name": "",
+                "province_name": "DKI Jakarta",
+                "postal_code": 113322
+            },
+            {
+                "id": 18617,
+                "name": "Branch 2",
+                "parent_branch_id": 0,
+                "regency_name": "Kota Semarang",
+                "province_name": "Jawa Tengah",
+                "postal_code": 0
+            },
+            {
+                "id": 18618,
+                "name": "Branch 3",
+                "parent_branch_id": 0,
+                "regency_name": "Kota Bandung",
+                "province_name": "Jawa Barat",
+                "postal_code": 0
+            }
+        ],
+        "total": 3
+    }
+}

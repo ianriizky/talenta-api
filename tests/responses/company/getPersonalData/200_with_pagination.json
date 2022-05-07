@@ -1,0 +1,40 @@
+{
+    "message": "get personal data successfully",
+    "data": {
+        "personal_data": [
+            {
+                "id": 51,
+                "name": "Bank Account"
+            },
+            {
+                "id": 52,
+                "name": "Bank Account Holder"
+            },
+            {
+                "id": 50,
+                "name": "Bank Name"
+            },
+            {
+                "id": 6,
+                "name": "Birth Date"
+            },
+            {
+                "id": 14,
+                "name": "BPJS Kesehatan"
+            }
+        ],
+        "total": 24,
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "https://data-api.talenta.co/v1/v2/company/3620/personal?limit=5&page=1&userId=571919&per-page=5",
+            "from": 1,
+            "last_page": 5,
+            "last_page_url": "https://data-api.talenta.co/v1/v2/company/3620/personal?limit=5&page=5&userId=571919&per-page=5",
+            "next_page_url": "https://data-api.talenta.co/v1/v2/company/3620/personal?limit=5&page=2&userId=571919&per-page=5",
+            "path": "https://data-api.talenta.co/v1/v2/company/3620/personal",
+            "per_page": 5,
+            "to": 5,
+            "total": 24
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "message": "get organizations successfully",
+    "data": {
+        "organizations": [
+            {
+                "id": 79746,
+                "name": "BOD",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79747,
+                "name": "HRD & GA",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79748,
+                "name": "HRD",
+                "parent_organization_id": 79747,
+                "branch_id": 0
+            },
+            {
+                "id": 79749,
+                "name": "GA",
+                "parent_organization_id": 79747,
+                "branch_id": 0
+            },
+            {
+                "id": 79750,
+                "name": "Finance & Accounting",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79751,
+                "name": "Finance",
+                "parent_organization_id": 79750,
+                "branch_id": 0
+            },
+            {
+                "id": 79752,
+                "name": "Accounting",
+                "parent_organization_id": 79750,
+                "branch_id": 0
+            },
+            {
+                "id": 79753,
+                "name": "IT Division",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79754,
+                "name": "Sales & Marketing",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79755,
+                "name": "Sales",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            },
+            {
+                "id": 79756,
+                "name": "Marketing",
+                "parent_organization_id": 0,
+                "branch_id": 0
+            }
+        ],
+        "total": 11
+    }
+}
