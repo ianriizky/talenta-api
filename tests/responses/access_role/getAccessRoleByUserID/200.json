@@ -1,0 +1,173 @@
+{
+    "message": "Successfully get user access role data",
+    "data": {
+        "access_role": {
+            "id": 2,
+            "name": "Employee",
+            "role": "Employee",
+            "role_id": 2,
+            "organization": [],
+            "job_position": [],
+            "job_level": [],
+            "branch": [],
+            "role_type": "default",
+            "ess": {
+                "attendance": {
+                    "view": 0
+                },
+                "employee": {
+                    "view": 0
+                },
+                "payroll": {
+                    "view": 0
+                }
+            },
+            "role_detail": {
+                "employee": {
+                    "employee": {
+                        "view": 0
+                    },
+                    "schedule": {
+                        "view": 0
+                    },
+                    "hr_transaction": {
+                        "view": 0
+                    },
+                    "payroll_data": {
+                        "view": 0
+                    },
+                    "payroll_component": {
+                        "view": 0
+                    }
+                },
+                "attendance": {
+                    "change_shift": {
+                        "view": 0
+                    },
+                    "attendance": {
+                        "view": 0
+                    },
+                    "overtime": {
+                        "view": 0
+                    },
+                    "time_off": {
+                        "view": 0
+                    }
+                },
+                "payroll": {
+                    "adjustment_transaction": {
+                        "view": 0
+                    },
+                    "loan": {
+                        "view": 0
+                    },
+                    "reimbursement": {
+                        "view": 0
+                    },
+                    "cash_advance": {
+                        "view": 0
+                    },
+                    "npp_transaction": {
+                        "view": 0
+                    },
+                    "thr": {
+                        "view": 0
+                    }
+                },
+                "report": {
+                    "tax_report": {
+                        "view": 0
+                    },
+                    "bpjs_report": {
+                        "view": 0
+                    },
+                    "salary_report": {
+                        "view": 0
+                    },
+                    "hr_report": {
+                        "view": 0
+                    },
+                    "attendance_report": {
+                        "view": 0
+                    },
+                    "reimbursement_report": {
+                        "view": 0
+                    },
+                    "overtime_report": {
+                        "view": 0
+                    },
+                    "loan_report": {
+                        "view": 0
+                    },
+                    "ebanking": {
+                        "view": 0
+                    }
+                },
+                "company": {
+                    "assets": {
+                        "view": 0
+                    },
+                    "reprimand": {
+                        "view": 0
+                    },
+                    "company_files": {
+                        "view": 0
+                    },
+                    "user_activity": {
+                        "view": 0
+                    }
+                },
+                "setting": {
+                    "users": {
+                        "view": 0
+                    },
+                    "branches": {
+                        "view": 0
+                    },
+                    "company_info": {
+                        "view": 0
+                    },
+                    "company_config": {
+                        "view": 0
+                    },
+                    "payroll_config": {
+                        "view": 0
+                    },
+                    "ess_config": {
+                        "view": 0
+                    }
+                },
+                "time_management": {
+                    "schedule": {
+                        "view": 0
+                    }
+                },
+                "filter": {
+                    "job_position": {
+                        "upper_job": 0,
+                        "upper_job_val": 0,
+                        "same_job": 0,
+                        "lower_job": 0,
+                        "lower_job_val": 0
+                    },
+                    "organization": {
+                        "upper_organization": 0,
+                        "upper_organization_val": 0,
+                        "same_organization": 0,
+                        "lower_organization": 0,
+                        "lower_organization_val": 0
+                    },
+                    "branch": 0
+                },
+                "module": {
+                    "payroll": 0,
+                    "time_off": 0,
+                    "overtime": 0,
+                    "reimbursement": 0,
+                    "loan": 0,
+                    "cash_advance": 0
+                }
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static string createAuthenticationSignature(\Illuminate\Support\Carbon $date, string|\Psr\Http\Message\RequestInterface $request, string $hmacSecret) Create authentication signature using sha256 hash and base64 encoding.
+ * @method static \Illuminate\Http\Client\Response getAccessRoleByUserID(string $super_admin_id, array|string|null $query = null) Create "/access-role/:super_admin_id" GET request to the Talenta api.
  * @method static \Illuminate\Http\Client\Response getCostCenterReport(array|string|null $query = null) Create "/cost-center" GET request to the Talenta api.
  * @method static \Illuminate\Http\Client\Response getCompanyCostCenter(string $cost_center_id, array|string|null $query = null) Create "/company/:cost_center_id/cost-center" GET request to the Talenta api.
  * @method static \Illuminate\Http\Client\Response addEmployee(array $data = []) Create "/employee" POST request to the Talenta api.

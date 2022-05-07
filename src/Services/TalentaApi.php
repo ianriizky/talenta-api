@@ -9,6 +9,7 @@ use Illuminate\Support\Traits\Macroable;
 use RuntimeException;
 
 /**
+ * @method \Illuminate\Http\Client\Response getAccessRoleByUserID(string $super_admin_id, array|string|null $query = null) Create "/access-role/:super_admin_id" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getCostCenterReport(array|string|null $query = null) Create "/cost-center" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getCompanyCostCenter(string $cost_center_id, array|string|null $query = null) Create "/company/:cost_center_id/cost-center" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response addEmployee(array $data = []) Create "/employee" POST request to the Talenta api.
@@ -28,6 +29,7 @@ class TalentaApi
     use Macroable {
         __call as macroCall;
     }
+    use Api\AccessRole;
     use Api\CostCenter;
     use Api\Employee;
     use Concerns\HandleAuthentication;
