@@ -10,9 +10,11 @@ use RuntimeException;
 
 /**
  * @see \Ianriizky\TalentaApi\Services\Api\AccessRole
+ *
  * @method \Illuminate\Http\Client\Response getAccessRoleByUserID(string $super_admin_id, array|string|null $query = null) Create "/access-role/:super_admin_id" GET request to the Talenta api.
  *
  * @see \Ianriizky\TalentaApi\Services\Api\Company
+ *
  * @method \Illuminate\Http\Client\Response getBranch(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/branch" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getOrganization(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/organization" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getJobLevel(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/job-level" GET request to the Talenta api.
@@ -26,10 +28,12 @@ use RuntimeException;
  * @method \Illuminate\Http\Client\Response getBreakData(string $company_id = 'me', array|string|null $query = null) Create "/company/:company_id/break" GET request to the Talenta api.
  *
  * @see \Ianriizky\TalentaApi\Services\Api\CostCenter
+ *
  * @method \Illuminate\Http\Client\Response getCostCenterReport(array|string|null $query = null) Create "/cost-center" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getCompanyCostCenter(string $cost_center_id, array|string|null $query = null) Create "/company/:cost_center_id/cost-center" GET request to the Talenta api.
  *
  * @see \Ianriizky\TalentaApi\Services\Api\Employee
+ *
  * @method \Illuminate\Http\Client\Response addEmployee(array $data = []) Create "/employee" POST request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getEmployeeByUserID(string $employee_id, array|string|null $query = null) Create "/employee/:employee_id" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getAllEmployee(array|string|null $query = null) Create "/employee" GET request to the Talenta api.
