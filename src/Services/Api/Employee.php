@@ -74,7 +74,7 @@ trait Employee
      */
     protected function getEmployeeOnLeaveStatusByID(string $employee_id, $query = null): Response
     {
-        return $this->request->get('/employee/'.$employee_id, $query);
+        return $this->request->get('/employee/'.$employee_id.'/status', $query);
     }
 
     /**
