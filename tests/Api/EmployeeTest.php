@@ -13,13 +13,13 @@ use Illuminate\Http\Response as HttpResponse;
  */
 class EmployeeTest extends ApiTestCase
 {
-    public function test_addEmployee_response_200()
+    public function test_postAddEmployee_response_200()
     {
-        $jsonPath = 'employee/addEmployee/200.json';
+        $jsonPath = 'employee/postAddEmployee/200.json';
 
         $this->factory->fakeUsingJsonPath($jsonPath);
 
-        tap(TalentaApi::addEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true)), function ($response) use ($jsonPath) {
+        tap(TalentaApi::postAddEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true)), function ($response) use ($jsonPath) {
             $this->assertInstanceOf(Response::class, $response);
 
             $response->assertSameWithJsonPath($jsonPath);
@@ -28,9 +28,9 @@ class EmployeeTest extends ApiTestCase
         $this->factory->assertSentCount(1);
     }
 
-    public function test_addEmployee_response_400_already_exists()
+    public function test_postAddEmployee_response_400_already_exists()
     {
-        $jsonPath = 'employee/addEmployee/400_already_exists.json';
+        $jsonPath = 'employee/postAddEmployee/400_already_exists.json';
 
         $this->factory->fakeUsingJsonPath($jsonPath, HttpResponse::HTTP_BAD_REQUEST);
 
@@ -38,7 +38,7 @@ class EmployeeTest extends ApiTestCase
         $this->expectExceptionCode(HttpResponse::HTTP_BAD_REQUEST);
 
         try {
-            TalentaApi::addEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
+            TalentaApi::postAddEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
         } catch (RequestException $th) {
             $th->response->assertSameWithJsonPath($jsonPath);
 
@@ -48,9 +48,9 @@ class EmployeeTest extends ApiTestCase
         $this->factory->assertSentCount(1);
     }
 
-    public function test_addEmployee_response_401()
+    public function test_postAddEmployee_response_401()
     {
-        $jsonPath = 'employee/addEmployee/401.json';
+        $jsonPath = 'employee/postAddEmployee/401.json';
 
         $this->factory->fakeUsingJsonPath($jsonPath, HttpResponse::HTTP_UNAUTHORIZED);
 
@@ -58,7 +58,7 @@ class EmployeeTest extends ApiTestCase
         $this->expectExceptionCode(HttpResponse::HTTP_UNAUTHORIZED);
 
         try {
-            TalentaApi::addEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
+            TalentaApi::postAddEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
         } catch (RequestException $th) {
             $th->response->assertSameWithJsonPath($jsonPath);
 
@@ -68,9 +68,9 @@ class EmployeeTest extends ApiTestCase
         $this->factory->assertSentCount(1);
     }
 
-    public function test_addEmployee_response_400_invalid_input()
+    public function test_postAddEmployee_response_400_invalid_input()
     {
-        $jsonPath = 'employee/addEmployee/400_invalid_input.json';
+        $jsonPath = 'employee/postAddEmployee/400_invalid_input.json';
 
         $this->factory->fakeUsingJsonPath($jsonPath, HttpResponse::HTTP_BAD_REQUEST);
 
@@ -78,7 +78,7 @@ class EmployeeTest extends ApiTestCase
         $this->expectExceptionCode(HttpResponse::HTTP_BAD_REQUEST);
 
         try {
-            TalentaApi::addEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
+            TalentaApi::postAddEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
         } catch (RequestException $th) {
             $th->response->assertSameWithJsonPath($jsonPath);
 
@@ -88,9 +88,9 @@ class EmployeeTest extends ApiTestCase
         $this->factory->assertSentCount(1);
     }
 
-    public function test_addEmployee_response_400_exceed_company_limit()
+    public function test_postAddEmployee_response_400_exceed_company_limit()
     {
-        $jsonPath = 'employee/addEmployee/400_exceed_company_limit.json';
+        $jsonPath = 'employee/postAddEmployee/400_exceed_company_limit.json';
 
         $this->factory->fakeUsingJsonPath($jsonPath, HttpResponse::HTTP_BAD_REQUEST);
 
@@ -98,7 +98,7 @@ class EmployeeTest extends ApiTestCase
         $this->expectExceptionCode(HttpResponse::HTTP_BAD_REQUEST);
 
         try {
-            TalentaApi::addEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
+            TalentaApi::postAddEmployee(json_decode(static::getJsonFromRequestsPath($jsonPath), true));
         } catch (RequestException $th) {
             $th->response->assertSameWithJsonPath($jsonPath);
 

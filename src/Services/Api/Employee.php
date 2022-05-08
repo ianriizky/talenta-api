@@ -21,7 +21,7 @@ trait Employee
      *
      * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1#4300f164-4a59-415b-bb6e-d141ba14cd38
      */
-    protected function addEmployee(array $data = []): Response
+    protected function postAddEmployee(array $data = []): Response
     {
         return $this->request->post('/employee', $data);
     }

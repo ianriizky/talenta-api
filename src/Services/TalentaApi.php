@@ -34,7 +34,7 @@ use RuntimeException;
  *
  * @see \Ianriizky\TalentaApi\Services\Api\Employee
  *
- * @method \Illuminate\Http\Client\Response addEmployee(array $data = []) Create "/employee" POST request to the Talenta api.
+ * @method \Illuminate\Http\Client\Response postAddEmployee(array $data = []) Create "/employee" POST request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getEmployeeByUserID(string $employee_id, array|string|null $query = null) Create "/employee/:employee_id" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getAllEmployee(array|string|null $query = null) Create "/employee" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getEmployeeOnLeaveStatusByID(string $employee_id, array|string|null $query = null) Create "/employee/:employee_id/status" GET request to the Talenta api.
