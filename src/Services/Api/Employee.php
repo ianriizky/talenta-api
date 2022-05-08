@@ -101,15 +101,15 @@ trait Employee
      * Submit Employee Informal Education Request.
      *
      * @param  array  $data
-     * @param  string|resource|null  $file
+     * @param  array<string|resource>|null  $files
      * @return \Illuminate\Http\Client\Response
      *
      * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1#f127d103-9114-4e57-8da8-735040ca7a98
      */
-    protected function postEmployeeInformalEducation(array $data = [], $file = null): Response
+    protected function postEmployeeInformalEducation(array $data = [], array $files = null): Response
     {
-        if (! is_null($file)) {
-            $this->request->attach('file', $file);
+        if (! is_null($files)) {
+            $this->request->attach($files);
         }
 
         return $this->request->post('/employee/informal-education/create', $data);
