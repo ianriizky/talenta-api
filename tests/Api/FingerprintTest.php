@@ -26,8 +26,8 @@ class FingerprintTest extends ApiTestCase
             'token' => '9b12964f1f03e7b0de26be6a68dcdd56',
         ], [
             [
-                'name' => 'fingerprint',
-                'contents' => UploadedFile::fake()->create('fingerprint.csv'),
+                'fingerprint',
+                UploadedFile::fake()->create('fingerprint.csv'),
             ],
         ]), function ($response) use ($jsonPath) {
             $this->assertInstanceOf(Response::class, $response);
@@ -56,8 +56,8 @@ class FingerprintTest extends ApiTestCase
                 'token' => '9b12964f1f03e7b0de26be6a68dcdd56',
             ], [
                 [
-                    'name' => 'fingerprint',
-                    'contents' => UploadedFile::fake()->create('fingerprint.csv'),
+                    'fingerprint',
+                    UploadedFile::fake()->create('fingerprint.csv'),
                 ],
             ]);
         } catch (RequestException $th) {
