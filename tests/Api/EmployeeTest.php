@@ -235,8 +235,8 @@ class EmployeeTest extends ApiTestCase
             json_decode(static::getJsonFromRequestsPath($jsonPath), true),
             [
                 [
-                    'name' => 'file',
-                    'contents' => UploadedFile::fake()->image('file.png'),
+                    'file',
+                    UploadedFile::fake()->image('file.png'),
                 ],
             ],
         ), function ($response) use ($jsonPath) {
