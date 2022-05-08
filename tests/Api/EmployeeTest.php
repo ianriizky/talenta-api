@@ -4,9 +4,11 @@ namespace Ianriizky\TalentaApi\Tests\Api;
 
 use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Ianriizky\TalentaApi\Tests\ApiTestCase;
+use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Client\Response;
 use Illuminate\Http\Response as HttpResponse;
+use Illuminate\Http\UploadedFile;
 
 /**
  * @see \Ianriizky\TalentaApi\Services\Api\Employee
@@ -221,6 +223,32 @@ class EmployeeTest extends ApiTestCase
         });
 
         $this->factory->assertSentCount(1);
+    }
+
+    public function test_postEmployeeInformalEducation_response_200_with_uploaded_file()
+    {
+        $jsonPath = 'employee/postEmployeeInformalEducation/200.json';
+
+        $this->factory->fakeUsingJsonPath($jsonPath);
+
+        tap(TalentaApi::postEmployeeInformalEducation(
+            json_decode(static::getJsonFromRequestsPath($jsonPath), true),
+            [
+                [
+                    'name' => 'file',
+                    'contents' => UploadedFile::fake()->image('file.png'),
+                ],
+            ],
+        ), function ($response) use ($jsonPath) {
+            $this->assertInstanceOf(Response::class, $response);
+
+            $response->assertSameWithJsonPath($jsonPath);
+        });
+
+        $this->factory->assertSentCount(1);
+        $this->factory->assertSent(function (Request $request) {
+            return $request->hasFile('file');
+        });
     }
 
     public function test_postEmployeeInformalEducation_response_400_empty_request()
