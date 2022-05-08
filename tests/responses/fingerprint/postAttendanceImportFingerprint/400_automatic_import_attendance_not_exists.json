@@ -1,0 +1,6 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "automatic import attendance setting not exists"
+    ]
+}
