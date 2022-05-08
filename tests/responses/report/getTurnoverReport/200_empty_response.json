@@ -1,0 +1,12 @@
+{
+    "message": "Successfully get turn over report yearly data",
+    "data": {
+        "turnover": {
+            "turnover_data": [],
+            "total_employee_active": 0,
+            "total_new_join": 0,
+            "total_resign": 0,
+            "total_employee_active_last_year": 0
+        }
+    }
+}

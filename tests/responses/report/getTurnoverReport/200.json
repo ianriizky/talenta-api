@@ -1,0 +1,96 @@
+{
+    "message": "Successfully get turn over report yearly data",
+    "data": {
+        "turnover": {
+            "turnover_data": [
+                {
+                    "employee_id": 44929,
+                    "full_name": "44929 sueann Riyadi",
+                    "branch_name": "Branch 1",
+                    "organization": "BOD",
+                    "job_position": "Supervisor IT",
+                    "job_level": "Manager",
+                    "month": 5,
+                    "join_date": "2021-05-18",
+                    "resign_date": "",
+                    "length_of_service": "0 Year 10 Month 1 Day",
+                    "reason": "-",
+                    "note": ""
+                },
+                {
+                    "employee_id": 99890,
+                    "full_name": "99890 zenobia Kusumawardhana",
+                    "branch_name": "Branch 1",
+                    "organization": "IT Division",
+                    "job_position": "Supervisor IT",
+                    "job_level": "Manager",
+                    "month": 7,
+                    "join_date": "2021-07-31",
+                    "resign_date": "",
+                    "length_of_service": "0 Year 7 Month 16 Day",
+                    "reason": "-",
+                    "note": ""
+                },
+                {
+                    "employee_id": 0,
+                    "full_name": "SDET Employee 4 ",
+                    "branch_name": "Branch 1",
+                    "organization": "IT Division",
+                    "job_position": "Staff IT",
+                    "job_level": "Staff",
+                    "month": 3,
+                    "join_date": "2021-03-04",
+                    "resign_date": "",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "reason": "-",
+                    "note": ""
+                },
+                {
+                    "employee_id": 0,
+                    "full_name": "SDET Employee 5 ",
+                    "branch_name": "Pusat",
+                    "organization": "IT Division",
+                    "job_position": "Supervisor IT",
+                    "job_level": "Supervisor",
+                    "month": 3,
+                    "join_date": "2021-03-04",
+                    "resign_date": "",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "reason": "-",
+                    "note": ""
+                },
+                {
+                    "employee_id": 0,
+                    "full_name": "SDET Employee 6 ",
+                    "branch_name": "Branch 2",
+                    "organization": "IT Division",
+                    "job_position": "Manager IT",
+                    "job_level": "Manager",
+                    "month": 3,
+                    "join_date": "2021-03-04",
+                    "resign_date": "",
+                    "length_of_service": "1 Year 0 Month 15 Day",
+                    "reason": "-",
+                    "note": ""
+                }
+            ],
+            "total_employee_active": 53,
+            "total_new_join": 9,
+            "total_resign": 0,
+            "total_employee_active_last_year": 44
+        },
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "https://data-api.talenta.co/v2/report/571919/turnover?limit=5&page=1&year=2021",
+            "from": 1,
+            "last_page": 2,
+            "last_page_url": "https://data-api.talenta.co/v2/report/571919/turnover?limit=5&page=2&year=2021",
+            "next_page_url": "https://data-api.talenta.co/v2/report/571919/turnover?limit=5&page=2&year=2021",
+            "path": "https://data-api.talenta.co/v2/report/571919/turnover?year=2021&page=1&limit=5",
+            "per_page": 5,
+            "prev_page_url": "",
+            "to": 5,
+            "total": 9
+        }
+    }
+}

@@ -44,6 +44,10 @@ use RuntimeException;
  * @method \Illuminate\Http\Client\Response getEmployeeInformalEducation(string $user_id, array $data = []) Create "/employee/informal-education/:user_id/list" GET request to the Talenta api.
  * @method \Illuminate\Http\Client\Response getEmployeeInformalEducationDetail(string $user_id, string $informal_education_id, array $data = []) Create "/employee/informal-education/:user_id/detail/:informal_education_id" GET request to the Talenta api.
  *
+ * @see \Ianriizky\TalentaApi\Services\Api\Report
+ *
+ * @method \Illuminate\Http\Client\Response getTurnoverReport(string $user_id, array|string|null $query = null) Create "/report/:user_id/turnover" GET request to the Talenta api.
+ *
  * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1
  */
 class TalentaApi
@@ -55,6 +59,7 @@ class TalentaApi
     use Api\Company;
     use Api\CostCenter;
     use Api\Employee;
+    use Api\Report;
     use Concerns\HandleAuthentication;
     use Concerns\HandleHTTPClient;
 
