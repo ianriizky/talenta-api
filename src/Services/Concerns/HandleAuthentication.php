@@ -3,7 +3,7 @@
 namespace Ianriizky\TalentaApi\Services\Concerns;
 
 use Closure;
-use Ianriizky\TalentaApi\Http\Client\PendingRequest;
+use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Response as HttpResponse;
@@ -13,7 +13,7 @@ use Psr\Http\Message\RequestInterface;
 use Throwable;
 
 /**
- * @property \Ianriizky\TalentaApi\Http\Client\PendingRequest $request
+ * @property \Illuminate\Http\Client\PendingRequest $request
  * @property array $config
  */
 trait HandleAuthentication

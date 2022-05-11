@@ -5,7 +5,7 @@ namespace Ianriizky\TalentaApi\Services\Api;
 use Illuminate\Http\Client\Response;
 
 /**
- * @property \Ianriizky\TalentaApi\Http\Client\PendingRequest $request
+ * @property \Illuminate\Http\Client\PendingRequest $request
  *
  * @see https://documenter.getpostman.com/view/12246328/TWDZHvj1#3fd7ec86-54ac-44d4-aa79-585b8833c216
  */

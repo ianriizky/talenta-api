@@ -84,7 +84,7 @@ class TalentaApi
     ];
 
     /**
-     * @var \Ianriizky\TalentaApi\Http\Client\PendingRequest
+     * @var \Illuminate\Http\Client\PendingRequest
      */
     protected $request;
 

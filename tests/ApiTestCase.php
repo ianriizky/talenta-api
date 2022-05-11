@@ -2,12 +2,12 @@
 
 namespace Ianriizky\TalentaApi\Tests;
 
-use Ianriizky\TalentaApi\Support\Facades\Http;
 use Ianriizky\TalentaApi\Support\Facades\TalentaApi;
 use Illuminate\Http\Client\Request;
 use Illuminate\Http\Client\Response;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use Illuminate\Testing\Assert;
 use Mockery as m;
@@ -15,7 +15,7 @@ use Mockery as m;
 class ApiTestCase extends TestCase
 {
     /**
-     * @var \Ianriizky\TalentaApi\Http\Client\Factory
+     * @var \Illuminate\Http\Client\Factory
      */
     protected $factory;
 
@@ -29,7 +29,7 @@ class ApiTestCase extends TestCase
         $this->factory = Http::getFacadeRoot();
 
         $this->factory->macro('responseFromJsonPath', function (string $jsonPath, $status = HttpResponse::HTTP_OK, $headers = []) {
-            /** @var \Ianriizky\TalentaApi\Http\Client\Factory $factory */
+            /** @var \Illuminate\Http\Client\Factory $factory */
             $factory = $this;
             $body = json_decode(ApiTestCase::getJsonFromResponsesPath($jsonPath), true);
 
@@ -37,7 +37,7 @@ class ApiTestCase extends TestCase
         });
 
         $this->factory->macro('fakeUsingJsonPath', function (string $jsonPath, $status = 200, $headers = []) {
-            /** @var \Ianriizky\TalentaApi\Http\Client\Factory $factory */
+            /** @var \Illuminate\Http\Client\Factory $factory */
             $factory = $this;
 
             $factory->fake(function (Request $request) use ($factory, $jsonPath, $status, $headers) {
