@@ -6,6 +6,8 @@ use Ianriizky\TalentaApi\Services\TalentaApi as Service;
 use Illuminate\Support\Facades\Facade;
 
 /**
+ * @method static \Illuminate\Http\Client\PendingRequest request()
+ *
  * @see \Ianriizky\TalentaApi\Services\Concerns\HandleAuthentication
  *
  * @method static string createAuthenticationSignature(\Illuminate\Support\Carbon $date, string|\Psr\Http\Message\RequestInterface $request, string $hmacSecret) Create authentication signature using sha256 hash and base64 encoding.

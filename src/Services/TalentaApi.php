@@ -3,6 +3,7 @@
 namespace Ianriizky\TalentaApi\Services;
 
 use BadMethodCallException;
+use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Traits\Macroable;
@@ -145,6 +146,14 @@ class TalentaApi
         // Use throw() method to make sure that it's always throw an exception
         // when the given response is error.
         return $response->throw();
+    }
+
+    /**
+     * @return \Illuminate\Http\Client\PendingRequest
+     */
+    public function request(): PendingRequest
+    {
+        return $this->request;
     }
 
     /**
