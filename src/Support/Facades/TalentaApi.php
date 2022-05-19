@@ -51,6 +51,11 @@ use Illuminate\Support\Facades\Facade;
  *
  * @method static \Illuminate\Http\Client\Response postAttendanceImportFingerprint(array $data = [], array<string|resource> $files) Create "/attendance/import-fingerprint" POST request to the Talenta api.
  *
+ * @see \Ianriizky\TalentaApi\Services\Api\PayrollPaymentSchedule
+ *
+ * @method static \Illuminate\Http\Client\Response getCompanyPayrollPaymentSchedule(array|string|null $query = null) Create "/company/me/payroll-payment-schedule" GET request to the Talenta api.
+ * @method static \Illuminate\Http\Client\Response getPayrollPaymentScheduleHistory(string $company_id, array|string|null $query = null) Create "/payroll-payment-schedule/:company_id/history" GET request to the Talenta api.
+ *
  * @see \Ianriizky\TalentaApi\Services\Api\Report
  *
  * @method static \Illuminate\Http\Client\Response getTurnoverReport(string $user_id, array|string|null $query = null) Create "/report/:user_id/turnover" GET request to the Talenta api.

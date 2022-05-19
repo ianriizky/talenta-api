@@ -1,0 +1,100 @@
+{
+    "message": "get company payroll payment schedule successfully",
+    "data": {
+        "payroll_payment_schedule": [
+            {
+                "id": 2400,
+                "name": "MAHECUSTOM",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-12-16 11:13:05"
+            },
+            {
+                "id": 2262,
+                "name": "RF",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-11-22 10:29:01"
+            },
+            {
+                "id": 2004,
+                "name": "WAREHOUSEWEEKLY",
+                "payment_schedule_date": "",
+                "type": "weekly",
+                "status": -1,
+                "created_date": "2021-09-13 17:30:22"
+            },
+            {
+                "id": 1782,
+                "name": "NADIA",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-07-29 15:15:37"
+            },
+            {
+                "id": 1702,
+                "name": "ASASSA",
+                "payment_schedule_date": "",
+                "type": "weekly",
+                "status": -1,
+                "created_date": "2021-07-09 12:18:42"
+            },
+            {
+                "id": 1701,
+                "name": "TEST",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-07-09 12:15:30"
+            },
+            {
+                "id": 1496,
+                "name": "ALLOWANCE",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-05-11 16:31:38"
+            },
+            {
+                "id": 1291,
+                "name": "GAJIB",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-03-09 18:22:49"
+            },
+            {
+                "id": 1290,
+                "name": "GAJIA",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-03-09 18:22:24"
+            },
+            {
+                "id": 1281,
+                "name": "TES1",
+                "payment_schedule_date": "",
+                "type": "monthly",
+                "status": -1,
+                "created_date": "2021-03-05 10:25:19"
+            }
+        ],
+        "total": 27,
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&page=1&per-page=10",
+            "from": 1,
+            "last_page": 3,
+            "last_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&page=3&per-page=10",
+            "next_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&page=2&per-page=10",
+            "path": "/v2/payroll-payment-schedule/679",
+            "per_page": 10,
+            "to": 10,
+            "total": 27
+        }
+    }
+}

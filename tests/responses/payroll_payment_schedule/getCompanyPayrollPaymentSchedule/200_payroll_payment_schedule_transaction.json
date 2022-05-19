@@ -1,0 +1,100 @@
+{
+    "message": "get company payroll payment schedule successfully",
+    "data": {
+        "payroll_payment_schedule": [
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-22 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-22 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-22 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-21 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-21 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-20 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-20 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-17 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 0,
+                "name": "DEFAULT",
+                "payment_schedule_date": "2021-12-17 00:00:00",
+                "type": "default",
+                "status": 0,
+                "created_date": ""
+            },
+            {
+                "id": 58,
+                "name": "PSA",
+                "payment_schedule_date": "2021-08-30 14:54:19",
+                "type": "monthly",
+                "status": 0,
+                "created_date": "2017-01-04 18:34:21"
+            }
+        ],
+        "total": 37,
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&year=2021&page=1&per-page=10",
+            "from": 1,
+            "last_page": 4,
+            "last_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&year=2021&page=4&per-page=10",
+            "next_page_url": "/v2/payroll-payment-schedule/679?user_id=8002&year=2021&page=2&per-page=10",
+            "path": "/v2/payroll-payment-schedule/679",
+            "per_page": 10,
+            "to": 10,
+            "total": 37
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "message": "get company payroll payment schedule history successfully",
+    "data": {
+        "payroll_payment_schedule": [
+            {
+                "id": 0,
+                "name": "Default",
+                "type": "monthly"
+            },
+            {
+                "id": 2734,
+                "name": "BONUS2022",
+                "type": "monthly"
+            }
+        ],
+        "pagination": {
+            "current_page": 1,
+            "first_page_url": "/v2/payroll-payment-schedule/3053/history?limit=20&month=4&page=1&user_id=935848&year=2022",
+            "from": 1,
+            "last_page": 1,
+            "last_page_url": "/v2/payroll-payment-schedule/3053/history?limit=20&month=4&page=1&user_id=935848&year=2022",
+            "next_page_url": "",
+            "path": "/v2/payroll-payment-schedule/3053/history",
+            "per_page": 20,
+            "prev_page_url": "",
+            "to": 2,
+            "total": 2
+        }
+    }
+}

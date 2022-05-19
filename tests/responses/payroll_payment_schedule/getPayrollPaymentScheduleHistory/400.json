@@ -1,0 +1,9 @@
+{
+    "message": "input validation error",
+    "errors": [
+        "month param should be a number between 1 - 12",
+        "year param should be in 'yyyy' format",
+        "page should must be positive integer",
+        "limit must be an integer between 1 - 100"
+    ]
+}

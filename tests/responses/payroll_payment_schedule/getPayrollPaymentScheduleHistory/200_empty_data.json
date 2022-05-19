@@ -1,0 +1,19 @@
+{
+    "message": "payroll payment schedule history not found for company id 3053 period 2022-12",
+    "data": {
+        "payroll_payment_schedule": null,
+        "pagination": {
+            "current_page": 0,
+            "first_page_url": "",
+            "from": 0,
+            "last_page": 0,
+            "last_page_url": "",
+            "next_page_url": "",
+            "path": "",
+            "per_page": 0,
+            "prev_page_url": "",
+            "to": 0,
+            "total": 0
+        }
+    }
+}
